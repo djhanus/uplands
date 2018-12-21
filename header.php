@@ -22,52 +22,12 @@
 		<header class="header decoration-bottom">
 	<div class="shell">
 		<div class="header__inner">
-			<a href="#" class="logo">
+			<a href="http://localhost:8888/uplands/" class="logo">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="" width="297" height="153">
 			</a>
 
 			<nav class="nav">
-				<ul>
-					<li>
-						<a href="#">About Us</a>
-					</li>
-					
-					<li>
-						<a href="#">Develop</a>
-					</li>
-					
-					<li>
-						<a href="#">Work</a>
-					</li>
-					
-					<li>
-						<a href="#">Live</a>
-					</li>
-					
-					<li>
-						<a href="#">News</a>
-					</li>
-					
-					<li>
-						<a href="#">Innovations</a>
-					</li>
-					
-					<li>
-						<a href="#">Enjoy & Explore</a>
-					</li>
-					
-					<li>
-						<a href="#">What's on</a>
-					</li>
-					
-					<li>
-						<a href="#">Getting Here</a>
-					</li>
-					
-					<li>
-						<a href="#">Contact</a>
-					</li>
-				</ul>
+				<?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
 
 				<div class="search">
 					<a href="#">

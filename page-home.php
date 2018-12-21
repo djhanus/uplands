@@ -1,4 +1,7 @@
-<?php get_header(); /* Template Name: Home */ ?>
+<?php get_header();
+
+	/* Template Name: Home */ ?>
+	
 		<div class="intro intro--padding">
 			<div class="slider-intro">
 				<div class="slider__clip">

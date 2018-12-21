@@ -1,2 +1,2 @@
 # uplands
-uplands workforce wp theme integration
+uplands workforce custom wp theme integration
