@@ -3,18 +3,18 @@
 /* Template Name: About */ ?>
 
 		<div class="intro intro--alt">
-			<div class="intro__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/science.jpg);">
+			<div class="intro__inner" style="background-image: url('<?php echo get_field('main_banner_image') ?>');">
 				<div class="shell">
 					<div class="intro__content">
 						<figure style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);"></figure>
 
 						<div class="intro__content-inner">
 							<h1>
-								Who We Are
+								<?php echo get_field('main_banner_title') ?>
 							</h1>
 
 							<p>
-								In a region replete with talent and resources, Uplanders—from students to visionaries, artisans to entrepreneurs—are competitive and thriving here and worldwide. Uplands families, a dedicated workforce, and a tide of trailblazers call our 11 counties home: Home of industry and determination, innovation and creativity, good friends and reliable neighbors. Our home is Uplands Made.
+								<?php echo get_field('main_banner_text') ?>
 							</p>
 						</div><!-- /.intro__content-inner -->
 					</div><!-- /.intro__content -->
