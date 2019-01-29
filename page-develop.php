@@ -10,13 +10,11 @@
 
 						<div class="intro__content-inner">
 							<h1>
-								<span class="intro-alt__small">BUSINESS IN THE</span>
-
-								<span class="intro-alt__big">UPLANDS</span>
+								<?php echo get_field('main_banner_title') ?>
 							</h1>
 
 							<p>
-								Located at the heart of the Midwest, nestled between half a dozen major cities, the Indiana Uplands is the home of industry leaders and global competitors. Drawing from our eager workforce and a culture of competitive idea creation, dozens of businesses have established innovative facilities, cracked into difficult markets, and developed long-term strategies for success right here in the Uplands. From blueprint to best in class, this is Uplands Made.
+								<?php echo get_field('main_banner_text') ?>
 							</p>
 						</div><!-- /.intro__content-inner -->
 					</div><!-- /.intro__content -->
@@ -35,11 +33,11 @@
 					
 					<div class="section__body">
 						<h4 class="title">
-							exploration and excitement
+							<?php echo get_field('section_one_main_title') ?>
 						</h4><!-- /.title -->
 					
 						<p>
-							We transform the soil and limestone of our land into factories and research centers. Discover defense and automotive manufacturing located mere miles from life sciences hubs; lively urban centers nurturing talented minds and great work places; and community recreation areas offering boundless exploration and excursions. Our companies range from Cook Medical to TRISTAR, Kimball to GKN Sinter Metals, Artisan Electronics to AB Biotechnologies. In the Uplands, we don’t limit ourselves to just one thing. This is the land of makers. We are Uplands Made. 
+							<?php echo get_field('section_one_paragraph') ?>
 						</p>
 					</div><!-- /.section__body -->
 				</div><!-- /.section__inner -->
@@ -51,11 +49,11 @@
 				<div class="section__inner">
 					<div class="section__body">
 						<h4 class="title">
-							employer to empowering
+							<?php echo get_field('section_two_main_title') ?>
 						</h4><!-- /.title -->
 					
 						<p>
-							In schools, busineesses, and communities, Uplanders partner together to invest in the future. Through Regional Opportunity Initiatives, we invest in our students, neighbors, and industries, working with employers to develop a strong economy while cultivating the leaders of tomorrow. We develop businesses and our workforce in tandem, combining educational initiatives with incubator spaces for the latest industry models in engineering, informatics, science, production, microelectronics, cybersecurity, and more. Our work ethic and determination to excel set us up as top competitors—that's the Uplands way.
+							<?php echo get_field('section_two_paragraph') ?>
 						</p>
 					</div><!-- /.section__body -->
 

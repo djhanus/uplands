@@ -10,7 +10,7 @@
 
 						<div class="intro__content-inner">
 							<h1>
-								INNOVATIONS IN THE UPLANDS
+								<?php echo get_field('main_banner_title') ?>
 							</h1>
 
 							<p>

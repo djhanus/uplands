@@ -353,7 +353,7 @@
 				<div class="section__inner">
 					<div class="section__image">
 						<figure class="multi-images">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/drawing.jpg" alt="" width="389" height="257">
+							<img src="<?php echo get_field('section_one_image_1') ?>" alt="" width="389" height="257">
 					
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/navy.jpg" alt="" width="389" height="257">
 					
@@ -365,11 +365,11 @@
 					
 					<div class="section__body">
 						<h4 class="title">
-							Our Roots
+							<?php echo get_field('section_one_main_title') ?>
 						</h4><!-- /.title -->
 					
 						<p>
-							Generations ago, we planted ourselves here: farmers and manufacturers, life science experts and dreamers. The Indiana Uplands endures as a land of opportunity, from early color televisions to leading-edge advances in pharmaceuticals. Encounter our history at NSWC Crane, the world's third-largest naval installation, or at Cook Medical, the largest privately held medical device manufacturer in the country. See our progress through enterprising companies like Jasper Engines, Kimball, AECOM, and General Dynamics. Determination rooted this land, and innovation makes it thrive.
+							<?php echo get_field('section_one_paragraph') ?>
 						</p>
 					</div><!-- /.section__body -->
 				</div><!-- /.section__inner -->
@@ -382,11 +382,11 @@
 					<div class="section__body" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);">
 						<div class="section__content">
 							<h4 class="title">
-								Our Today
+								<?php echo get_field('section_two_main_title') ?>
 							</h4><!-- /.title -->
 
 							<p>
-								Flourishing families, skilled workers, and an abundance of natural resources: every day in the Uplands is a reminder of the depth of beauty here, from our popular parks and welcoming towns to our thriving industries, urban areas, and cultural centers. All those who call the Uplands home experience a high quality of work life and family life, building relationships that go deep and encountering opportunities that make each of us better, stronger, and more prosperous. We capitalize on the full potential of our people and places to diversify our economy and unleash opportunities for current and future generations.
+								<?php echo get_field('section_two_paragraph') ?>
 							</p>
 						</div><!-- /.section__content -->
 					</div><!-- /.section__body -->
@@ -407,11 +407,11 @@
 					
 					<div class="section__body">
 						<h4 class="title">
-							Our Roots
+							<?php echo get_field('section_three_main_title') ?>
 						</h4><!-- /.title -->
 					
 						<p>
-							Generations ago, we planted ourselves here: farmers and manufacturers, life science experts and dreamers. The Indiana Uplands endures as a land of opportunity, from early color televisions to leading-edge advances in pharmaceuticals. Encounter our history at NSWC Crane, the world's third-largest naval installation, or at Cook Medical, the largest privately held medical device manufacturer in the country. See our progress through enterprising companies like Jasper Engines, Kimball, AECOM, and General Dynamics. Determination rooted this land, and innovation makes it thrive.
+							<?php echo get_field('section_three_paragraph') ?>
 						</p>
 					</div><!-- /.section__body -->
 				</div><!-- /.section__inner -->
@@ -424,11 +424,11 @@
 					<div class="section__body" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);">
 						<div class="section__content">
 							<h4 class="title">
-								Our Name
+								<?php echo get_field('section_four_main_title') ?>
 							</h4><!-- /.title -->
 
 							<p>
-								Beginning in 2017, we began a regional brand identification effort to define not only the story of our region, but our name as well. Originally Southwest Central Indiana, we arrived at a new name, Indiana Uplands, descriptive of the unique geographic and economic facets of our 11 counties. Like our hills and forests that reach to the heights, Indiana Uplands is a region on the rise. Uplanders are hardworking and brilliant entrepreneurs, leaders, and skilled workers, growing world-shaping ideas into remarkable products and thriving businesses. Indiana Uplands is a peak destination for innovation, education, and opportunities that lift the quality of life for all.
+								<?php echo get_field('section_four_paragraph') ?>
 							</p>
 						</div><!-- /.section__content -->
 					</div><!-- /.section__body -->

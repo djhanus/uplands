@@ -10,13 +10,11 @@
 
 						<div class="intro__content-inner">
 							<h1>
-								<span class="intro-alt__small">WORKING IN THE</span>
-
-								<span class="intro-alt__big">UPLANDS</span>
+								<?php echo get_field('main_banner_title') ?>
 							</h1>
 
 							<p>
-								We combine strong community with a dedicated workforce to do more than simply support industries. Here in the Uplands, we inspire new ideas, develop sustainable futures, and maintain a competitive advantage. Drawing from vast local resources of limestone, forests, scientific discovery, and brilliant minds, Uplanders are global leaders and opportunity-creators. Next door to next level, this is Uplands Made.
+								<?php echo get_field('main_banner_text') ?>
 							</p>
 						</div><!-- /.intro__content-inner -->
 					</div><!-- /.intro__content -->
@@ -35,11 +33,11 @@
 					
 					<div class="section__body">
 						<h4 class="title">
-							 ground to global
+							 <?php echo get_field('section_one_main_title') ?>
 						</h4><!-- /.title -->
 					
 						<p>
-							Ever-growing, ever-changing, ever-advancing. As a hub of economic development, the Uplands boasts specialization in the advanced manufacturing, life sciences, and national security industries. Our community cultivates future workers and leaders in a diversity of sectors through highly ranked local schools and world-class higher education and research institutions that are closely connected to regional industry partners. Breaking ground, developing skills, going global: this is Uplands Made.
+							<?php echo get_field('section_one_paragraph') ?>
 						</p>
 					</div><!-- /.section__body -->
 				</div><!-- /.section__inner -->
@@ -51,11 +49,11 @@
 				<div class="section__inner">
 					<div class="section__body">
 						<h4 class="title">
-							energy to enterprise
+							<?php echo get_field('section_two_main_title') ?>
 						</h4><!-- /.title -->
 					
 						<p>
-							Small businesses thrive amid abundant natural resources, an eager workforce, and our energized, regionally focused economy. We value global opportunities and prosper in a regional market of artisans, tourists, innovators, and entrepreneurs.
+							<?php echo get_field('section_two_paragraph') ?>
 						</p>
 					</div><!-- /.section__body -->
 

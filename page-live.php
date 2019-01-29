@@ -10,13 +10,11 @@
 
 						<div class="intro__content-inner">
 							<h1>
-								<span class="intro-alt__small">LIVING IN THE</span>
-
-								<span class="intro-alt__big">UPLANDS</span>
+								<?php echo get_field('main_banner_title') ?>
 							</h1>
 
 							<p>
-								When you encounter the Uplands’ combination of urban amenities with strong community ties, you’ll understand why so many people who come here want to stay. From fundraisers to foundations, educational opportunities to workforce growth initiatives, our neighbors, towns, and businesses are dedicated to ensuring you flourish.
+								<?php echo get_field('main_banner_text') ?>
 							</p>
 						</div><!-- /.intro__content-inner -->
 					</div><!-- /.intro__content -->
@@ -35,11 +33,11 @@
 					
 					<div class="section__body">
 						<h4 class="title">
-							 Happening at home
+							<?php echo get_field('section_one_main_title') ?>
 						</h4><!-- /.title -->
 					
 						<p>
-							What's up in the Uplands? Local art galleries, farmers' markets, historic theaters, artisan fairs, and sporting events for the whole family. Our neighbors cultivate strength and support for all. Come experience the Hoosier hospitality for which we're famous; we'll help you feel at home.
+							<?php echo get_field('section_one_paragraph') ?>
 						</p>
 					</div><!-- /.section__body -->
 				</div><!-- /.section__inner -->
@@ -51,11 +49,11 @@
 				<div class="section__inner">
 					<div class="section__body">
 						<h4 class="title">
-							education to excellence
+							<?php echo get_field('section_two_main_title') ?>
 						</h4><!-- /.title -->
 					
 						<p>
-							In the heart of the Uplands, education thrives. From our network of highly rated elementary and secondary schools to campuses of Indiana University, Ivy Tech, and Vincennes University Jasper Campus, students age 6 to 60 pursue their dreams every year. With ready school initiatives, STEM leadership training, and graduation and career coaching, every future you can imagine is starting right here.
+							<?php echo get_field('section_two_paragraph') ?>
 						</p>
 					</div><!-- /.section__body -->
 
