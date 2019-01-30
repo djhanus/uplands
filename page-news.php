@@ -3,7 +3,7 @@
 	/* Template Name: News */ ?>
 	
 		<div class="intro intro--alt">
-			<div class="intro__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/observing.jpg);">
+			<div class="intro__inner" style="background-image: url(<?php echo get_field('main_banner_image') ?>);">
 				<div class="shell">
 					<div class="intro__content">
 						<figure style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);"></figure>

@@ -3,7 +3,7 @@
 	/* Template Name: Live */ ?>
 
 		<div class="intro intro--alt intro--margin-bot">
-			<div class="intro__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/carnival-family.jpg);">
+			<div class="intro__inner" style="background-image: url(<?php echo get_field('main_banner_image') ?>);">
 				<div class="shell">
 					<div class="intro__content">
 						<figure style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);"></figure>
@@ -27,7 +27,7 @@
 				<div class="section__inner">
 					<div class="section__image section__image--full-width">
 						<figure>
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/food-market.jpg" alt="" width="959" height="725">
+							<img src="<?php echo get_field('section_one_featured_image') ?>" alt="" width="959" height="725">
 						</figure>
 					</div><!-- /.section__image -->
 					
@@ -59,7 +59,7 @@
 
 					<div class="section__image section__image--full-width">
 						<figure>
-							<img class="alignself-right" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/girls-fixing.jpg" alt="" width="843" height="725">
+							<img class="alignself-right" src="<?php echo get_field('section_two_featured_image') ?>" alt="" width="843" height="725">
 						</figure>
 					</div><!-- /.section__image -->
 				</div><!-- /.section__inner -->

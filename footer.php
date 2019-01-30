@@ -63,7 +63,7 @@
 						<div class="socials">
 							<ul>
 								<li>
-									<a href="#">
+									<a href="<?php echo get_field('linkedin_url') ?>">
 										<i class="fab fa-linkedin-in"></i>
 									</a>
 								</li>
@@ -81,7 +81,7 @@
 								</li>
 								
 								<li>
-									<a href="#">
+									<a href="<?php echo get_field('facebook_url') ?>">
 										<i class="fab fa-facebook-f"></i>
 									</a>
 								</li>
@@ -102,19 +102,7 @@
 							Quick Links
 						</h6>
 						<nav class="footer__nav">
-							<ul>
-								<li>
-									<a href="#">About Us</a>
-								</li>
-								
-								<li>
-									<a href="#">Media</a>
-								</li>
-								
-								<li>
-									<a href="#">Contact</a>
-								</li>
-							</ul>
+							<?php wp_nav_menu( array( 'theme_location' => 'footer-quicklinks' ) ); ?>
 						</nav><!-- /.footer__nav -->
 					</div><!-- /.footer__item -->
 

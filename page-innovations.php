@@ -3,7 +3,7 @@
 	/* Template Name: Innovations */ ?>
 
 		<div class="intro intro--alt">
-			<div class="intro__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/innovation-intro.jpg);">
+			<div class="intro__inner" style="background-image: url(<?php echo get_field('main_banner_image') ?>);">
 				<div class="shell">
 					<div class="intro__content">
 						<figure style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);"></figure>
@@ -14,7 +14,7 @@
 							</h1>
 
 							<p>
-								Be on the frontline of feature news and opportunities in the Uplands, where new businesses arise each year, visionary leaders invent the latest craze, and creative artisans apply their craft to a world of fresh possibilities. There is no shortage of things to see, learn, and experience in the Uplands.
+								<?php echo get_field('main_banner_text') ?>
 							</p>
 						</div><!-- /.intro__content-inner -->
 					</div><!-- /.intro__content -->
