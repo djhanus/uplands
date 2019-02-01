@@ -22,7 +22,7 @@
 		<header class="header decoration-bottom">
 	<div class="shell">
 		<div class="header__inner">
-			<a href="http://localhost:8888/uplands/" class="logo">
+			<a href="/" class="logo">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="" width="297" height="153">
 			</a>
 

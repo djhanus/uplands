@@ -35,13 +35,13 @@
 						<div class="article__body">
 							<header class="article__head">
 								<h3 class="title">
-									Regional Video
+									<?php echo get_field('regional_video_title'); ?>
 								</h3><!-- /.title -->
 							</header><!-- /.article__head -->
 
 							<div class="article__entry">
 								<p>
-									Sed a felis id risus luctus lacinia pretium id dui. Aliquam sagittis erat in lorem varius, at viverra lectus posuere. Pellentesque ac consectetur augue. Praesent tempor urna blandit enim tristique, id maximus neque tincidunt. Maecenas euismod pulvinar sem, tincidunt malesuada est pretium ac.
+									<?php echo get_field('regional_video_text'); ?>
 								</p>
 							</div><!-- /.article__entry -->
 						</div><!-- /.article__body -->
@@ -58,19 +58,19 @@
 							<div class="section__col">
 								<article class="article-media article-media--small">
 									<div class="article__video">
-										<iframe width="1280" height="720" src="https://www.youtube.com/embed/NpEaa2P7qZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+										<iframe width="1280" height="720" src="<?php echo get_field('video_1_url'); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 									</div><!-- /.article__video -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												Job Shadows <br>Video 1
+												<?php echo get_field('video_1_title'); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												Quisque sed accumsan urna, ac ultricies erat. Donec eu sodales felis. Morbi porttitor, leo ut vulputate ornare, dui arcu convallis nulla, et venenatis dui.
+												<?php echo get_field('video_1_text'); ?>
 											</p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->
@@ -80,19 +80,19 @@
 							<div class="section__col">
 								<article class="article-media article-media--small">
 									<div class="article__video">
-										<iframe width="1280" height="720" src="https://www.youtube.com/embed/NpEaa2P7qZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+										<iframe width="1280" height="720" src="<?php echo get_field('video_2_url'); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 									</div><!-- /.article__video -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												Job Shadows <br>Video 2
+												<?php echo get_field('video_2_title'); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												Quisque sed accumsan urna, ac ultricies erat. Donec eu sodales felis. Morbi porttitor, leo ut vulputate ornare, dui arcu convallis nulla, et venenatis dui sapien eget ipsum.
+												<?php echo get_field('video_2_text'); ?>
 											</p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->
@@ -106,19 +106,19 @@
 							<div class="section__col">
 								<article class="article-media article-media--small">
 									<div class="article__video">
-										<iframe width="1280" height="720" src="https://www.youtube.com/embed/NpEaa2P7qZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+										<iframe width="1280" height="720" src="<?php echo get_field('video_3_url'); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 									</div><!-- /.article__video -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												Lorem ipsum: <br> dolor sit amet
+												<?php echo get_field('video_3_title'); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												Quisque sed accumsan urna, ac ultricies erat. Donec eu sodales felis. Morbi porttitor, leo ut vulputate ornare, dui arcu convallis nulla, et venenatis dui sapien eget ipsum.
+												<?php echo get_field('video_3_text'); ?>
 											</p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->
@@ -128,19 +128,19 @@
 							<div class="section__col">
 								<article class="article-media article-media--small">
 									<div class="article__video">
-										<iframe width="1280" height="720" src="https://www.youtube.com/embed/NpEaa2P7qZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+										<iframe width="1280" height="720" src="<?php echo get_field('video_4_url'); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 									</div><!-- /.article__video -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												Lorem ipsum: <br> dolor sit amet
+												<?php echo get_field('video_4_title'); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												Quisque sed accumsan urna, ac ultricies erat. Donec eu sodales felis. Morbi porttitor, leo ut vulputate ornare, dui arcu convallis nulla, et venenatis dui sapien eget ipsum.
+												<?php echo get_field('video_4_text'); ?>
 											</p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->

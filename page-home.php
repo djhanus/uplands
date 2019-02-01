@@ -105,7 +105,7 @@
 							</div><!-- /.article__entry -->
 							
 							<div class="article__actions">
-								<a href="#">
+								<a href="/develop/">
 									Business in the Uplands
 								</a>
 							</div><!-- /.article__actions -->
@@ -129,7 +129,7 @@
 							</div><!-- /.article__entry -->
 							
 							<div class="article__actions">
-								<a href="#">
+								<a href="/work/">
 									Working in the Uplands
 								</a>
 							</div><!-- /.article__actions -->
@@ -153,7 +153,7 @@
 							</div><!-- /.article__entry -->
 							
 							<div class="article__actions">
-								<a href="#">
+								<a href="/live/">
 									Living in the Uplands
 								</a>
 							</div><!-- /.article__actions -->
@@ -183,7 +183,7 @@
 
 										<header class="article__head">
 											<h5>
-												lorem ipsum: Praesent orci mauris
+												<?php echo get_field('video_1_title'); ?>
 											</h5>
 											
 											<p>
@@ -201,7 +201,7 @@
 
 										<header class="article__head">
 											<h5>
-												Donec porttitor: Nulla facilisi
+												2
 											</h5>
 											
 											<p>
@@ -219,7 +219,7 @@
 
 										<header class="article__head">
 											<h5>
-												Donec porttitor: Nulla facilisi
+												3
 											</h5>
 											
 											<p>
@@ -237,7 +237,7 @@
 
 										<header class="article__head">
 											<h5>
-												Donec porttitor: Nulla facilisi
+												4
 											</h5>
 											
 											<p>
@@ -405,7 +405,7 @@
 						 	</div><!-- /.article__entry -->
 
 						 	<div class="article__actions">
-						 		<a href="#" class="link-more">
+						 		<a href="/getting-here/" class="link-more">
 						 			Getting here
 						 		</a>
 						 	</div><!-- /.article__actions -->

@@ -69,19 +69,19 @@
 								</li>
 								
 								<li>
-									<a href="#">
+									<a href="<?php echo get_field('twitter_url')?>">
 										<i class="fab fa-twitter"></i>
 									</a>
 								</li>
 								
 								<li>
-									<a href="#">
+									<a href="<?php echo get_field('instagram_url')?>">
 										<i class="fab fa-instagram"></i>
 									</a>
 								</li>
 								
 								<li>
-									<a href="<?php echo get_field('facebook_url') ?>">
+									<a href="<?php echo get_field('facebook_url')?>">
 										<i class="fab fa-facebook-f"></i>
 									</a>
 								</li>
@@ -91,7 +91,7 @@
 				</div><!-- /.footer__col -->
 				
 				<div class="footer__col footer__col--small">
-					<a href="#" class="footer__logo">
+					<a href="/" class="footer__logo">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-footer.png" alt="" width="122" height="347">
 					</a>
 				</div><!-- /.footer__col -->
