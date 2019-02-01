@@ -7,7 +7,7 @@
 				<div class="slider__clip">
 					<div class="slider__slides">
 						<div class="slider__slide">
-							<div class="intro__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/bridge.jpg);">
+							<div class="intro__inner" style="background-image: url('<?php echo get_field('section_one_slide_a_image')?>');">
 								<div class="shell">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/map.png" alt="" class="intro__map" width="1044" height="646">
 									<div class="intro__content">
@@ -15,11 +15,11 @@
 
 										<div class="intro__content-inner">
 											<h3>
-												Concept to Creation. <br> Family and Future.
+												<?php echo get_field('section_one_slide_a_title')?>
 											</h3>
 											
 											<p>
-												Skill, effort, innovation. Indiana Uplands lives all three. This is a  region of entrepreneurs, artisans, students, and scientists, whose brilliant ideas are becoming reality every single day. Come ply your trade and grow your business. Visit for a weekend of lakeside wonder. Stay for a lifetime full of opportunity.
+												<?php echo get_field('section_one_slide_a_text')?>
 											</p>
 											
 											<h1>
@@ -32,7 +32,7 @@
 						</div><!-- /.slider__slide -->
 
 						<div class="slider__slide">
-							<div class="intro__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/bridge.jpg);">
+							<div class="intro__inner" style="background-image: url('<?php echo get_field('section_one_slide_b_image')?>');">
 								<div class="shell">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/map.png" alt="" class="intro__map" width="1044" height="646">
 									<div class="intro__content">
@@ -40,11 +40,11 @@
 
 										<div class="intro__content-inner">
 											<h3>
-												Concept to Creation. Family and Future.
+												<?php echo get_field('section_one_slide_b_title')?>
 											</h3>
 											
 											<p>
-												Skill, effort, innovation. Indiana Uplands lives all three. This is a  region of entrepreneurs, artisans, students, and scientists, whose brilliant ideas are becoming reality every single day. Come ply your trade and grow your business. Visit for a weekend of lakeside wonder. Stay for a lifetime full of opportunity.
+												<?php echo get_field('section_one_slide_b_text')?>
 											</p>
 											
 											<h1>
@@ -57,7 +57,7 @@
 						</div><!-- /.slider__slide -->
 
 						<div class="slider__slide">
-							<div class="intro__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/bridge.jpg);">
+							<div class="intro__inner" style="background-image: url('<?php echo get_field('section_one_slide_c_image')?>');">
 								<div class="shell">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/map.png" alt="" class="intro__map" width="1044" height="646">
 									<div class="intro__content">
@@ -65,11 +65,11 @@
 
 										<div class="intro__content-inner">
 											<h3>
-												Concept to Creation. Family and Future.
+												<?php echo get_field('section_one_slide_c_title')?>
 											</h3>
 											
 											<p>
-												Skill, effort, innovation. Indiana Uplands lives all three. This is a  region of entrepreneurs, artisans, students, and scientists, whose brilliant ideas are becoming reality every single day. Come ply your trade and grow your business. Visit for a weekend of lakeside wonder. Stay for a lifetime full of opportunity.
+												<?php echo get_field('section_one_slide_c_text')?>
 											</p>
 											
 											<h1>
@@ -90,17 +90,17 @@
 				<div class="section__cols">
 					<div class="section__col section__col-1of3">
 						<article class="article">
-							<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/thinking-lady.jpg);"></div><!-- /.article__image -->
+							<div class="article__image" style="background-image: url('<?php echo get_field('section_two_image_a')?>');"></div><!-- /.article__image -->
 							
 							<div class="article__head article__head--shrink">
 								<h4 class="title">
-									Idea AND Innovation
+									<?php echo get_field('section_two_title_a')?>
 								</h4><!-- /.title -->
 							</div><!-- /.article__head -->
 							
 							<div class="article__entry">
 								<p>
-									Groundbreaking research centers. Future-forward industry. Cohorts of creative entrepreneurs. In the Uplands, visionary leaders develop new businesses and test advanced technologies, forming a foundation for the opportunities of tomorrow. Automative advances, life-saving devices, defense technologies: we're equipped for any turn the market takes.
+									<?php echo get_field('section_two_text_a')?>
 								</p>
 							</div><!-- /.article__entry -->
 							
@@ -114,17 +114,17 @@
 					
 					<div class="section__col section__col-1of3">
 						<article class="article">
-							<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/greeting.jpg);"></div><!-- /.article__image -->
+							<div class="article__image" style="background-image: url('<?php echo get_field('section_two_image_b')?>');"></div><!-- /.article__image -->
 							
 							<div class="article__head article__head--shrink">
 								<h4 class="title">
-									Competitive and Collaborative
+									<?php echo get_field('section_two_title_b')?>
 								</h4><!-- /.title -->
 							</div><!-- /.article__head -->
 							
 							<div class="article__entry">
 								<p>
-									Local businesses in the Uplands are industry leaders in the life sciences, defense, and advanced manufacturing. Join teams that think critically and cooperatively, coupling your talents with their vision, to creates consistent, remarkable results. Become a part of a strong, sustainable workforce that works together and succeeds together in everything we do.
+									<?php echo get_field('section_two_text_b')?>
 								</p>
 							</div><!-- /.article__entry -->
 							
@@ -138,17 +138,17 @@
 					
 					<div class="section__col section__col-1of3">
 						<article class="article">
-							<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/family.jpg);"></div><!-- /.article__image -->
+							<div class="article__image" style="background-image: url('<?php echo get_field('section_two_image_c')?>');"></div><!-- /.article__image -->
 							
 							<div class="article__head article__head--shrink">
 								<h4 class="title">
-									Home and Community
+									<?php echo get_field('section_two_title_c')?>
 								</h4><!-- /.title -->
 							</div><!-- /.article__head -->
 							
 							<div class="article__entry">
 								<p>
-									Welcome to where you belong. Uplands neighbors are unlike any others: We meet you at county fairs and on park benches, at the lake and at community events, in neighborhoods and on campuses. We pour time, energy, and resources into our communal success, supporting each other through thick and thin. 
+									<?php echo get_field('section_two_text_c')?> 
 								</p>
 							</div><!-- /.article__entry -->
 							
@@ -387,20 +387,20 @@
 			</div><!-- /.shell -->
 		</section><!-- /.section section-/-news -->
 
-		<div class="section-location" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/location.jpg);">
+		<div class="section-location" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/location.jpg');">
 			<div class="shell">
 				<div class="section__inner">
 					<div class="section__content">
 						 <article class="article">
 						 	<header class="article__head article__head--shrink">
 						 		<h4 class="title">
-						 			Where we are
+						 			<?php echo get_field('section_three_title')?>
 						 		</h4><!-- /.title -->
 						 	</header><!-- /.article__head -->
 
 						 	<div class="article__entry">
 						 		<p>
-						 			At the intersection between Indianapolis, Cincinnati, and St. Louis, the rolling hills and forests of the Uplands beckon any roadfarers to pause and admire this beautiful place we call home.
+						 			<?php echo get_field('section_three_text')?>
 						 		</p>
 						 	</div><!-- /.article__entry -->
 

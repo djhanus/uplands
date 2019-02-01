@@ -7,12 +7,12 @@
 			<div class="shell">
 				<article class="article article--default">
 					<header class="article__head">
-						<h4 class="article__title title">CONTACT US</h4><!-- /.article__title -->
+						<h4 class="article__title title"><?php echo get_field('section_one_title')?></h4><!-- /.article__title -->
 					</header><!-- /.article__head -->
 
 					<div class="article__body">
 						<div class="article__entry">
-							<p>For living, working, and building a business, the Indiana Uplands has the resources you need. Looking for more information on community, business, education opportunities, or getting started in the Uplands? Let us know!</p>
+							<p><?php echo get_field('section_one_paragraph')?></p>
 						</div><!-- /.article__entry -->
 					</div><!-- /.article__body -->
 				</article><!-- /.article -->
@@ -22,7 +22,7 @@
 		<section class="section-tabs">
 			<header class="section__head">
 				<div class="shell">
-					<h4 class="section__title">i am looking for more information about:</h4><!-- /.section__title -->
+					<h4 class="section__title"><?php echo get_field('section_one_more_info')?></h4><!-- /.section__title -->
 				</div><!-- /.shell -->
 			</header><!-- /.section__head -->
 			
@@ -33,26 +33,26 @@
 							<nav class="tabs__nav">
 								<ul>
 									<li>
-										<a href="#tab-1" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/tab-image.jpg);">
-											<span>General</span>
+										<a href="#tab-1" style="background-image: url('<?php echo get_field('section_one_image_a')?>');">
+											<span><?php echo get_field('section_one_info_a')?></span>
 										</a>
 									</li>
 				
 									<li>
-										<a href="#tab-2" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/tab-image-1.jpg);">
-											<span>Tourism</span>
+										<a href="#tab-2" style="background-image: url('<?php echo get_field('section_one_image_b')?>');">
+											<span><?php echo get_field('section_one_info_b')?></span>
 										</a>
 									</li>
 				
 									<li class="current">
-										<a href="#tab-3" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/tab-image-2.jpg);">
-											<span>Business</span>
+										<a href="#tab-3" style="background-image: url('<?php echo get_field('section_one_image_c')?>');">
+											<span><?php echo get_field('section_one_info_c')?></span>
 										</a>
 									</li>
 				
 									<li>
-										<a href="#tab-4" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/tab-image-3.jpg);">
-											<span>Media</span>
+										<a href="#tab-4" style="background-image: url('<?php echo get_field('section_one_image_d')?>');">
+											<span><?php echo get_field('section_one_info_d')?></span>
 										</a>
 									</li>
 								</ul>
@@ -283,15 +283,15 @@
 					<div class="article__body">
 						<ul class="list-links">
 							<li>
-								<a href="#">REGIONAL OPPORTUNITY INITIATIVES, INC. (ROI)</a>
+								<a href="<?php echo get_field('contact_roi')?>">REGIONAL OPPORTUNITY INITIATIVES, INC. (ROI)</a>
 							</li>
 							
 							<li>
-								<a href="#">INDIANA INNOVATION INSTITUTE (IN3)</a>
+								<a href="<?php echo get_field('contact_in3')?>">INDIANA INNOVATION INSTITUTE (IN3)</a>
 							</li>
 							
 							<li>
-								<a href="#">INDIANA UNIVERSITY CENTER FOR RURAL ENGAGEMENT (CRE)</a>
+								<a href="<?php echo get_field('contact_cre')?>">INDIANA UNIVERSITY CENTER FOR RURAL ENGAGEMENT (CRE)</a>
 							</li>
 						</ul><!-- /.list-links -->
 					</div><!-- /.article__body -->

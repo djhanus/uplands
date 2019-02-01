@@ -7,12 +7,12 @@
 			<div class="shell">
 				<article class="article article--default">
 					<header class="article__head">
-						<h2 class="article__title title">Uplands to Anywhere</h2><!-- /.article__title -->
+						<h2 class="article__title title"><?php echo get_field('section_one_title') ?></h2><!-- /.article__title -->
 					</header><!-- /.article__head -->
 
 					<div class="article__body">
 						<div class="article__entry">
-							<p>The Uplands are perfectly located for every whimsical excursion, studious retreat, and corporate collaboration in the Midwest. We combine Hoosier hospitality with world-class access. </p>
+							<p><?php echo get_field('section_one_paragraph') ?></p>
 						</div><!-- /.article__entry -->
 					</div><!-- /.article__body -->
 				</article><!-- /.article -->
@@ -244,10 +244,10 @@
 		<section class="section section--default decoration-dark decoration-bottom decoration-top">
 			<div class="shell">
 				<header class="section__head">
-					<h2 class="section__title title">Getting here</h2><!-- /.section__title -->
+					<h2 class="section__title title"><?php echo get_field('section_two_title')?></h2><!-- /.section__title -->
 
 					<div class="section__entry">
-						<p>At the intersection between Indianapolis, Cincinnati, and St. Louis, the rolling hills and forests of the Uplands beckon any roadfarers to pause and admire this beautiful place we call home.</p>
+						<p><?php echo get_field('section_two_paragraph')?></p>
 					</div><!-- /.section__entry -->
 				</header><!-- /.section__head -->
 
@@ -255,7 +255,7 @@
 					<div class="cols gutter-small">
 						<div class="col col--2of3">
 							<article class="article article--simple article--default">
-								<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/image-1.jpg);"></div><!-- /.article__image -->
+								<div class="article__image" style="background-image: url('<?php echo get_field('section_two_image_one')?>');"></div><!-- /.article__image -->
 
 								<div class="article__content">
 									<header class="article__head">
@@ -266,19 +266,19 @@
 										<div class="cols">
 											<div class="col col--1of2">
 												<ul class="list-simple">
-													<li><strong>Louisville:</strong> From I-65 north, take exit 7 for State Road 60 west towards Salem, the gem of Washington County.</li>
+													<li><strong>Louisville:</strong> <?php echo get_field('louisville_directions')?></li>
 
-													<li><strong>Cincinnati:</strong> Take exit 16 off I-275 onto State Road 50 west and cruise all the way to Lawrence County’s main city of Bedford.</li>
+													<li><strong>Cincinnati:</strong> <?php echo get_field('cincinnati_directions')?></li>
 													
-													<li><strong>EVANSVILLE:</strong> Follow I-69 and drive near the Naval Surface Warfare Center (NSWC), the world's third largest naval base.</li>
+													<li><strong>EVANSVILLE:</strong> <?php echo get_field('evansville_directions')?></li>
 												</ul><!-- /.list-simple -->
 											</div><!-- /.col -->
 
 											<div class="col col--1of2">
 												<ul class="list-simple">
-													<li><strong>Indianapolis:</strong> Follow I-65 south to State Road 46 west toward Nashville and the heart of Brown County. Or, take I-465 to State Road 37 south for a fast-track to Bloomington.</li>
+													<li><strong>Indianapolis:</strong> <?php echo get_field('indianapolis_directions')?></li>
 													
-													<li><strong>St.Louis:</strong> A straight shot on I-64 will bring you to the core of leafy green Hoosier National Forest and its hundreds of hiking and biking trails.</li>
+													<li><strong>St.Louis:</strong> <?php echo get_field('st_louis_directions')?></li>
 												</ul><!-- /.list-simple -->
 											</div><!-- /.col -->
 										</div><!-- /.cols -->
@@ -289,7 +289,7 @@
 
 						<div class="col col--1of3">
 							<article class="article article--simple article--default">
-								<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/image-2.jpg);"></div><!-- /.article__image -->
+								<div class="article__image" style="background-image: url('<?php echo get_field('section_two_image_two')?>');"></div><!-- /.article__image -->
 
 								<div class="article__content">
 									<header class="article__head">
@@ -298,7 +298,7 @@
 
 									<div class="article__body">
 										<div class="article__entry">
-											<p>Fly in and out of the Indianapolis International Airport (IND) in Marion County as a major hub for national and international air travel. Then head south by car for access to all the magnificence the Uplands has to offer. Headed to our more southern counties? Consider flying in and out of nearby Louisville International Airport (SDF).</p>
+											<p><?php echo get_field('plane_directions')?></p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->
 								</div><!-- /.article__content -->
@@ -312,23 +312,23 @@
 		<section class="section section--simple">
 			<div class="shell">
 				<header class="section__head">
-					<h2 class="section__title">Getting Around</h2><!-- /.section__title -->
+					<h2 class="section__title"><?php echo get_field('section_three_title')?></h2><!-- /.section__title -->
 				</header><!-- /.section__head -->
 
 				<div class="section__body">
 					<div class="cols gutter-large">
 						<div class="col col--1of3">
 							<article class="article article--simple article--default">
-								<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/article-image.jpg);"></div><!-- /.article__image -->
+								<div class="article__image" style="background-image: url('<?php echo get_field('section_three_image_one')?>');"></div><!-- /.article__image -->
 
 								<div class="article__content">
 									<header class="article__head">
-										<h3 class="article__title title title--alt">Interstate 69</h3><!-- /.article__title -->
+										<h3 class="article__title title title--alt"><?php echo get_field('section_three_a')?></h3><!-- /.article__title -->
 									</header><!-- /.article__head -->
 
 									<div class="article__body">
 										<div class="article__entry">
-											<p>Venture along I-69, the Midwestern highway that will eventually stretch from Canada to Mexico—with the Uplands neatly situated in the center. This breathtaking drive through rolling hills, robust farmland, and thriving cities will connect three countries and eight states to the heart of the Uplands.</p>
+											<p><?php echo get_field('section_three_a_paragraph')?></p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->
 								</div><!-- /.article__content -->
@@ -337,16 +337,16 @@
 
 						<div class="col col--1of3">
 							<article class="article article--simple article--default">
-								<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/article-image-1.jpg);"></div><!-- /.article__image -->
+								<div class="article__image" style="background-image: url('<?php echo get_field('section_three_image_two')?>');"></div><!-- /.article__image -->
 
 								<div class="article__content">
 									<header class="article__head">
-										<h3 class="article__title title title--alt">Trails & Trestles</h3><!-- /.article__title -->
+										<h3 class="article__title title title--alt"><?php echo get_field('section_three_b')?></h3><!-- /.article__title -->
 									</header><!-- /.article__head -->
 
 									<div class="article__body">
 										<div class="article__entry">
-											<p>Play and explore on over 75 hiking trails. Pump your tires and bike the 48-mile Union Pass Road, lace up your hiking boots for a day in Hoosier National Forest, or pay a visit to Greene County’s Tulip Trestle. </p>
+											<p><?php echo get_field('section_three_b_paragraph')?> </p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->
 								</div><!-- /.article__content -->
@@ -355,16 +355,16 @@
 
 						<div class="col col--1of3">
 							<article class="article article--simple article--default">
-								<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/article-image-2.jpg);"></div><!-- /.article__image -->
+								<div class="article__image" style="background-image: url('<?php echo get_field('section_three_image_three')?>');"></div><!-- /.article__image -->
 
 								<div class="article__content">
 									<header class="article__head">
-										<h3 class="article__title title title--alt">Bridges & Byways</h3><!-- /.article__title -->
+										<h3 class="article__title title title--alt"><?php echo get_field('section_three_c')?></h3><!-- /.article__title -->
 									</header><!-- /.article__head -->
 
 									<div class="article__body">
 										<div class="article__entry">
-											<p>Visit Bean Blossom Covered Bridge, tour the Brown County motorcycle path, or experience the beauty of the 25-mile French Lick Scenic Railway between French Lick and Jasper. Curiosity and amazement will be your guide.</p>
+											<p><?php echo get_field('section_three_c_paragraph')?></p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->
 								</div><!-- /.article__content -->

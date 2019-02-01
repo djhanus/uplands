@@ -192,7 +192,7 @@
 							<div class="circles__group">
 								<div class="circle circle--yellow">
 									<div class="circle__content">
-										<span class="fz-m">48</span>
+										<span class="fz-m"><?php echo get_field('cities_and_towns')?></span>
 							
 										<span>Cities & Towns</span>
 									</div><!-- /.circle__content -->
@@ -203,11 +203,11 @@
 										population
 									</span>
 							
-									<span class="fz-xl">402,000</span>
+									<span class="fz-xl"><?php echo get_field('population')?></span>
 								</div><!-- /.circle circle-/-big circle-/-blue circle-/-blue-bg -->
 							
 								<div class="circle circle--yellow">
-									<span class="fz-m">4,500</span>
+									<span class="fz-m"><?php echo get_field('total_square_miles')?></span>
 							
 									<span>square miles</span>
 								</div><!-- /.circle circle-/-yellow -->
@@ -223,23 +223,15 @@
 								</div><!-- /.circle circle-/-big circle-/-yellow circle-/-yellow-bg -->
 
 								<div class="circle circle--blue">
-									<span>National</span>
-									
-									<span>Security &</span>
-									
-									<span>Defense</span>
+									<span><?php echo get_field('key_industry_sector_1')?></span>
 								</div><!-- /.circle circle-/-blue -->
 
 								<div class="circle circle--blue">
-									<span>Life</span>
-									
-									<span>Sciences</span>
+									<span><?php echo get_field('key_industry_sector_2')?></span>
 								</div><!-- /.circle circle-/-blue -->
 
 								<div class="circle circle--blue">
-									<span>Advanced</span>
-									
-									<span>Manufacturing</span>
+									<span><?php echo get_field('key_industry_sector_3')?></span>
 								</div><!-- /.circle circle-/-blue -->
 							</div><!-- /.circles__group -->
 						</div><!-- /.circles__row -->
@@ -253,39 +245,29 @@
 								</div><!-- /.circle circle-/-big circle-/-yellow circle-/-yellow-bg -->
 
 								<div class="circle circle--blue">
-									<span>Lorem</span>
-									
-									<span>Ipsum</span>
+									<span><?php echo get_field('major_employer_1')?></span>
 								</div><!-- /.circle circle-/-blue -->
 
 								<div class="circle circle--blue">
-									<span>Lorem</span>
-									
-									<span>Ipsum</span>
+									<span><?php echo get_field('major_employer_2')?></span>
 								</div><!-- /.circle circle-/-blue -->
 
 								<div class="circle circle--blue">
-									<span>Lorem</span>
-									
-									<span>Ipsum</span>
+									<span><?php echo get_field('major_employer_3')?></span>
 								</div><!-- /.circle circle-/-blue -->
 
 								<div class="circle circle--blue">
-									<span>Lorem</span>
-									
-									<span>Ipsum</span>
+									<span><?php echo get_field('major_employer_4')?></span>
 								</div><!-- /.circle circle-/-blue -->
 
 								<div class="circle circle--blue">
-									<span>Lorem</span>
-									
-									<span>Ipsum</span>
+									<span><?php echo get_field('major_employer_5')?></span>
 								</div><!-- /.circle circle-/-blue -->
 							</div><!-- /.circles__group -->
 
 							<div class="circles__group">
 								<div class="circle circle--medium circle--blue circle--blue-bg">
-									<span class="fz-l">##</span>
+									<span class="fz-l"><?php echo get_field('people_in_workforce')?></span>
 
 									<span class="fz-xs">people in</span>
 									
@@ -297,25 +279,25 @@
 						<div class="circles__row">
 							<div class="circles__group">
 								<div class="circle circle--yellow">
-									<span class="fz-m">##</span>
+									<span class="fz-m"><?php echo get_field('school_districts')?></span>
 
 									<span>school districts</span>
 								</div><!-- /.circle circle-/-yellow -->
 
 								<div class="circle circle--blue circle--blue-bg">
-									<span class="fz-m">####</span>
+									<span class="fz-m"><?php echo get_field('students')?></span>
 
 									<span>students</span>
 								</div><!-- /.circle circle-/-blue circle-/-blue-bg -->
 
 								<div class="circle circle--yellow">
-									<span class="fz-m">##$</span>
+									<span class="fz-m"><?php echo get_field('cost_of_living')?></span>
 
 									<span>cost of living</span>
 								</div><!-- /.circle circle-/-yellow -->
 
 								<div class="circle circle--blue circle--blue-bg">
-									<span class="fz-m">##</span>
+									<span class="fz-m"><?php echo get_field('square_miles_of_recreation')?></span>
 
 									<span>square miles of</span>
 
@@ -325,9 +307,7 @@
 
 							<div class="circles__group">
 								<div class="circle circle--blue">
-									<span>Lorem</span>
-									
-									<span>Ipsum</span>
+									<span><?php echo get_field('surrounding_area_1')?></span>
 								</div><!-- /.circle circle-/-blue -->
 
 								<div class="circle circle--big circle--yellow circle--yellow-bg">
@@ -337,9 +317,7 @@
 								</div><!-- /.circle circle-/-big circle-/-yellow circle-/-yellow-bg -->
 
 								<div class="circle circle--blue">
-									<span>Lorem</span>
-									
-									<span>Ipsum</span>
+									<span><?php echo get_field('surrounding_area_2')?></span>
 								</div><!-- /.circle circle-/-blue -->
 							</div><!-- /.circles__group -->
 						</div><!-- /.circles__row -->
