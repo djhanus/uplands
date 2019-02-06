@@ -11,49 +11,49 @@
 						<nav class="footer__nav footer__navs">
 							<ul>
 								<li>
-									<a href="#">Brown</a>
+									<a href="<?php echo get_field('brown_county', 'option')?>">Brown</a>
 								</li>
 								
 								<li>
-									<a href="#">Crawford</a>
+									<a href="<?php echo get_field('crawford_county', 'option')?>">Crawford</a>
 								</li>
 								
 								<li>
-									<a href="#">Daviess</a>
+									<a href="<?php echo get_field('daviess_county', 'option')?>">Daviess</a>
 								</li>
 								
 								<li>
-									<a href="#">Dubois</a>
+									<a href="<?php echo get_field('dubois_county', 'option')?>">Dubois</a>
 								</li>
 								
 								<li>
-									<a href="#">Greene</a>
+									<a href="<?php echo get_field('greene_county', 'option')?>">Greene</a>
 								</li>
 								
 								<li>
-									<a href="#">Lawrence</a>
+									<a href="<?php echo get_field('lawrence_county', 'option')?>">Lawrence</a>
 								</li>
 							</ul>
 
 							<ul>
 								<li>
-									<a href="#">Martin</a>
+									<a href="<?php echo get_field('martin_county', 'option')?>">Martin</a>
 								</li>
 								
 								<li>
-									<a href="#">Monroe</a>
+									<a href="<?php echo get_field('monroe_county', 'option')?>">Monroe</a>
 								</li>
 								
 								<li>
-									<a href="#">Orange</a>
+									<a href="<?php echo get_field('orange_county', 'option')?>">Orange</a>
 								</li>
 								
 								<li>
-									<a href="#">Owen</a>
+									<a href="<?php echo get_field('owen_county', 'option')?>">Owen</a>
 								</li>
 								
 								<li>
-									<a href="#">Washington</a>
+									<a href="<?php echo get_field('washington_county', 'option')?>">Washington</a>
 								</li>
 							</ul>
 						</nav><!-- /.footer__nav -->
@@ -63,25 +63,25 @@
 						<div class="socials">
 							<ul>
 								<li>
-									<a href="<?php echo get_field('linkedin_url') ?>">
+									<a href="<?php echo get_field('linkedin_url', 'option') ?>">
 										<i class="fab fa-linkedin-in"></i>
 									</a>
 								</li>
 								
 								<li>
-									<a href="<?php echo get_field('twitter_url')?>">
+									<a href="<?php echo get_field('twitter_url', 'option')?>">
 										<i class="fab fa-twitter"></i>
 									</a>
 								</li>
 								
 								<li>
-									<a href="<?php echo get_field('instagram_url')?>">
+									<a href="<?php echo get_field('instagram_url', 'option')?>">
 										<i class="fab fa-instagram"></i>
 									</a>
 								</li>
 								
 								<li>
-									<a href="<?php echo get_field('facebook_url')?>">
+									<a href="<?php echo get_field('facebook_url', 'option')?>">
 										<i class="fab fa-facebook-f"></i>
 									</a>
 								</li>

@@ -427,17 +427,17 @@
 					<div class="section__cols">
 						<div class="section__col section__col-1of4">
 							<article class="article article--small">
-								<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/market.jpg);"></div><!-- /.article__image -->
+								<div class="article__image" style="background-image: url(<?php echo get_field('event_1_image', 'option'); ?>);"></div><!-- /.article__image -->
 								
 								<header class="article__head">
 									<h5>
-										Farmers’ Markets 
+										<?php echo get_field('event_1_title', 'option'); ?>
 									</h5>
 								</header><!-- /.article__head -->
 								
 								<div class="article__entry">
 									<p>
-										Local crafts, local food, local investment. Farm to finesse, this is Uplands Made.
+										<?php echo get_field('event_1_description', 'option'); ?>
 									</p>
 								</div><!-- /.article__entry -->
 							</article><!-- /.article -->
@@ -445,65 +445,53 @@
 						
 						<div class="section__col section__col-1of4">
 							<article class="article article--small">
-								<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/microphone.jpg);"></div><!-- /.article__image -->
+								<div class="article__image" style="background-image: url(<?php echo get_field('event_2_image', 'option'); ?>);"></div><!-- /.article__image -->
 								
 								<header class="article__head">
 									<h5>
-										Bloomington Blues and Boogie Woogie Piano Festival
+										<?php echo get_field('event_2_title', 'option'); ?>
 									</h5>
 								</header><!-- /.article__head -->
 								
 								<div class="article__entry">
 									<p>
-										Local musicians and eateries collaborate for this weekend of art and education.
+										<?php echo get_field('event_2_description', 'option'); ?>
 									</p>
 								</div><!-- /.article__entry -->
-								
-								<div class="article__actions">
-									<a href="#" class="link-more">
-										Learn More
-									</a>
-								</div><!-- /.article__actions -->
 							</article><!-- /.article -->
 						</div><!-- /.section__col section__col-1of4 -->
 						
 						<div class="section__col section__col-1of4">
 							<article class="article article--small">
-								<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/baloon.jpg);"></div><!-- /.article__image -->
+								<div class="article__image" style="background-image: url(<?php echo get_field('event_3_image', 'option'); ?>);"></div><!-- /.article__image -->
 								
 								<header class="article__head">
 									<h5>
-										Kiwanis Club of South Central Indiana
+										<?php echo get_field('event_3_title', 'option'); ?>
 									</h5>
 								</header><!-- /.article__head -->
 								
 								<div class="article__entry">
 									<p>
-										 Find yourself on your way UP in the Uplands at our annual Balloon Fest.
+										<?php echo get_field('event_3_description', 'option'); ?>
 									</p>
 								</div><!-- /.article__entry -->
-								
-								<div class="article__actions">
-									<a href="#" class="link-more">
-										Learn More
-									</a>
-								</div><!-- /.article__actions -->
 							</article><!-- /.article -->
 						</div><!-- /.section__col section__col-1of4 -->
 						
 						<div class="section__col section__col-1of4">
 							<article class="article article--small">
-								<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/guitar.jpg);"></div><!-- /.article__image -->
+								<div class="article__image" style="background-image: url(<?php echo get_field('event_4_image', 'option'); ?>);"></div><!-- /.article__image -->
 								
 								<header class="article__head">
 									<h5>
-										Music in the Park
+										<?php echo get_field('event_4_title', 'option'); ?>
 									</h5>
 								</header><!-- /.article__head -->
 								
 								<div class="article__entry">
 									<p>
-										Join a public space turned creative place on breezy summer nights.
+										<?php echo get_field('event_4_description', 'option'); ?>
 									</p>
 								</div><!-- /.article__entry -->
 							</article><!-- /.article -->

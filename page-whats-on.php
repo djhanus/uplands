@@ -26,31 +26,31 @@
 			<div class="shell">
 				<div class="section__body">
 					<article class="article-media">
-						<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/baloon-big.jpg);"></div><!-- /.article__image -->
+						<div class="article__image" style="background-image: url(<?php echo get_field('featured_event_image') ?>);"></div><!-- /.article__image -->
 
 						<div class="article__body">
 							<header class="article__head">
 								<h3 class="title">
-									Kiwanis Club of South Central Indiana 
+									<?php echo get_field('featured_event_title') ?>
 								</h3><!-- /.title -->
 							</header><!-- /.article__head -->
 
 							<div class="article__entry">
 								<p>
-									 Find yourself on your way UP in the Uplands at our annual Balloon Fest.
+									 <?php echo get_field('featured_event_description') ?>
 								</p>
 
 								<p>
 									<span>
-										September 7-9
+										<?php echo get_field('featured_event_date') ?>
 									</span>
 									
 									<span>
-										2018
+										<?php echo get_field('featured_event_year') ?>
 									</span>
 									
 									<span>
-										Monroe County Fairgrounds
+										<?php echo get_field('featured_event_location') ?>
 									</span>
 								</p>
 							</div><!-- /.article__entry -->
@@ -67,27 +67,27 @@
 						<div class="section__cols">
 							<div class="section__col">
 								<article class="article-media article-media--small">
-									<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/market-big.jpg);"></div><!-- /.article__image -->
+									<div class="article__image" style="background-image: url(<?php echo get_field('event_1_image', 'option'); ?>);"></div><!-- /.article__image -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												Farmers’ Markets 
+												<?php echo get_field('event_1_title', 'option'); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												Local crafts, local food, local investment. Farm to finesse, this is Uplands Made.
+												<?php echo get_field('event_1_description', 'option'); ?>
 											</p>
 
 											<p>
 												<span>
-													Every day of the week
+													<?php echo get_field('event_1_date', 'option'); ?>
 												</span>
 												
 												<span>
-													location varies
+													<?php echo get_field('event_1_location', 'option'); ?>
 												</span>
 											</p>
 										</div><!-- /.article__entry -->
@@ -97,27 +97,27 @@
 
 							<div class="section__col">
 								<article class="article-media article-media--small">
-									<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/talking-microphone.jpg);"></div><!-- /.article__image -->
+									<div class="article__image" style="background-image: url(<?php echo get_field('event_2_image', 'option'); ?>);"></div><!-- /.article__image -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												Bloomington Blues and Boogie Woogie Piano Festival
+												<?php echo get_field('event_2_title', 'option'); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												Local musicians and eateries collaborate for this weekend of art and education.
+												<?php echo get_field('event_2_description', 'option'); ?>
 											</p>
 
 											<p>
 												<span>
-													August 11-13 ,  2018
+													<?php echo get_field('event_2_date', 'option'); ?>
 												</span>
 												
 												<span>
-													Ivy Tech John Waldron Arts Center
+													<?php echo get_field('event_2_location', 'option'); ?>
 												</span>
 											</p>
 										</div><!-- /.article__entry -->
@@ -131,22 +131,28 @@
 						<div class="section__cols">
 							<div class="section__col">
 								<article class="article-media article-media--small">
-									<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/theatre.jpg);"></div><!-- /.article__image -->
+									<div class="article__image" style="background-image: url(<?php echo get_field('event_3_image', 'option'); ?>);"></div><!-- /.article__image -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												Tivoli Theatre 
+												<?php echo get_field('event_3_title', 'option'); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												Catch new films and local productions at Tivoli Theatre, a ’20s-era restored entertainment hall.
+												<?php echo get_field('event_3_description', 'option'); ?>
 											</p>
 
 											<p>
-												<span>24 N. Washington Street, Spencer, Indiana</span>
+												<span>
+													<?php echo get_field('event_3_date', 'option'); ?>
+												</span>
+												
+												<span>
+													<?php echo get_field('event_3_location', 'option'); ?>
+												</span>
 											</p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->
@@ -155,22 +161,28 @@
 
 							<div class="section__col">
 								<article class="article-media article-media--small">
-									<div class="article__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/guitar-music.jpg);"></div><!-- /.article__image -->
+									<div class="article__image" style="background-image: url(<?php echo get_field('event_4_image', 'option'); ?>);"></div><!-- /.article__image -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												Music in the Park 
+												<?php echo get_field('event_4_title', 'option'); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												Join a public space turned creative place on breezy summer nights.  
+												<?php echo get_field('event_4_description', 'option'); ?>
 											</p>
 
 											<p>
-												<span>Dates and locations vary</span>
+												<span>
+													<?php echo get_field('event_4_date', 'option'); ?>
+												</span>
+												
+												<span>
+													<?php echo get_field('event_4_location', 'option'); ?>
+												</span>
 											</p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->

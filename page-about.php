@@ -31,7 +31,7 @@
 
 					<ul class="list-counties">
 						<li>
-							<a href="#">
+							<a href="<?php echo get_field('owen_county', 'option')?>">
 								<div class="list__image">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/yellow-1.png" alt="" width="64" height="66">
 								</div><!-- /.list__image -->
@@ -45,7 +45,7 @@
 						</li>
 
 						<li>
-							<a href="#">
+							<a href="<?php echo get_field('greene_county', 'option')?>">
 								<div class="list__image">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/yellow-2.png" alt="" width="90" height="59">
 								</div><!-- /.list__image -->
@@ -59,7 +59,7 @@
 						</li>
 
 						<li>
-							<a href="#">
+							<a href="<?php echo get_field('monroe_county', 'option')?>">
 								<div class="list__image">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/yellow-3.png" alt="" width="61" height="73">
 								</div><!-- /.list__image -->
@@ -73,7 +73,7 @@
 						</li>
 
 						<li>
-							<a href="#">
+							<a href="<?php echo get_field('brown_county', 'option')?>">
 								<div class="list__image">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/yellow-4.png" alt="" width="51" height="63">
 								</div><!-- /.list__image -->
@@ -87,7 +87,7 @@
 						</li>
 
 						<li>
-							<a href="#">
+							<a href="<?php echo get_field('daviess_county', 'option')?>">
 								<div class="list__image">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/yellow-5.png" alt="" width="56" height="81">
 								</div><!-- /.list__image -->
@@ -101,7 +101,7 @@
 						</li>
 
 						<li>
-							<a href="#">
+							<a href="<?php echo get_field('martin_county', 'option')?>">
 								<div class="list__image">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/yellow-6.png" alt="" width="40" height="82">
 								</div><!-- /.list__image -->
@@ -115,7 +115,7 @@
 						</li>
 
 						<li>
-							<a href="#">
+							<a href="<?php echo get_field('lawrence_county', 'option')?>">
 								<div class="list__image">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/yellow-7.png" alt="" width="66" height="67">
 								</div><!-- /.list__image -->
@@ -129,7 +129,7 @@
 						</li>
 
 						<li>
-							<a href="#">
+							<a href="<?php echo get_field('dubois_county', 'option')?>">
 								<div class="list__image">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/yellow-8.png" alt="" width="65" height="70">
 								</div><!-- /.list__image -->
@@ -143,7 +143,7 @@
 						</li>
 
 						<li>
-							<a href="#">
+							<a href="<?php echo get_field('orange_county', 'option')?>">
 								<div class="list__image">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/yellow-9.png" alt="" width="63" height="64">
 								</div><!-- /.list__image -->
@@ -157,7 +157,7 @@
 						</li>
 
 						<li>
-							<a href="#">
+							<a href="<?php echo get_field('washington_county', 'option')?>">
 								<div class="list__image">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/yellow-10.png" alt="" width="74" height="69">
 								</div><!-- /.list__image -->
@@ -171,7 +171,7 @@
 						</li>
 
 						<li>
-							<a href="#">
+							<a href="<?php echo get_field('crawford_county', 'option')?>">
 								<div class="list__image">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/yellow-11.png" alt="" width="68" height="71">
 								</div><!-- /.list__image -->

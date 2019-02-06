@@ -1,9 +1,12 @@
 <?php
+
+// load styles
 function enqueue_parent_styles() {
   wp_register_style('uplands-style',  get_stylesheet_directory_uri() .'assets/css/bundle.css', array(), null, 'all');
 }
 add_action('wp_enqueue_scripts', 'enqueue_parent_styles');
 
+// custom menus
 function register_menus() {
   register_nav_menus(
     array(
@@ -15,5 +18,17 @@ function register_menus() {
   );
 }
 add_action('init', 'register_menus');
+
+// add acf options page
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page(array(
+		'page_title' 	=> 'Theme Settings',
+		'menu_title'	=> 'Theme Settings',
+		'menu_slug' 	=> 'theme-settings',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+}
 
 ?>
