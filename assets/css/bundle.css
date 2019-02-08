@@ -1795,7 +1795,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 	Tile
 \* ------------------------------------------------------------ */
 
-.tile { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; height: 1190px; overflow: hidden; }
+.tile { display: inline-flex; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; height: 1190px; width: 650px; overflow: hidden; }
 
 .tile h3 { font-family: 'Knockout 27 Junior Bantamwt', sans-serif; font-weight: 300; }
 
