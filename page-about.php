@@ -263,8 +263,14 @@
 								<div class="circle circle--blue">
 									<span><?php echo get_field('major_employer_5')?></span>
 								</div><!-- /.circle circle-/-blue -->
-							</div><!-- /.circles__group -->
 
+								<div class="circle circle--blue">
+									<span><?php echo get_field('major_employer_6')?></span>
+								</div><!-- /.circle circle-/-blue -->
+							</div><!-- /.circles__group -->
+						</div><!-- /.circles__row -->
+
+						<div class="circles__row">
 							<div class="circles__group">
 								<div class="circle circle--medium circle--blue circle--blue-bg">
 									<span class="fz-l"><?php echo get_field('people_in_workforce')?></span>
@@ -274,9 +280,7 @@
 									<span class="fz-xs">workforce</span>
 								</div><!-- /.circle circle-/-medium circle-/-blue circle-/-blue-bg -->
 							</div><!-- /.circles__group -->
-						</div><!-- /.circles__row -->
 
-						<div class="circles__row">
 							<div class="circles__group">
 								<div class="circle circle--yellow">
 									<span class="fz-m"><?php echo get_field('school_districts')?></span>
@@ -290,13 +294,13 @@
 									<span>students</span>
 								</div><!-- /.circle circle-/-blue circle-/-blue-bg -->
 
-								<div class="circle circle--yellow">
+								<div class="circle circle--yellow" style="display: none;"> <!-- HIDDEN -->
 									<span class="fz-m"><?php echo get_field('cost_of_living')?></span>
 
 									<span>cost of living</span>
 								</div><!-- /.circle circle-/-yellow -->
 
-								<div class="circle circle--blue circle--blue-bg">
+								<div class="circle circle--blue circle--blue-bg" style="display: none;"> <!-- HIDDEN -->
 									<span class="fz-m"><?php echo get_field('square_miles_of_recreation')?></span>
 
 									<span>square miles of</span>
@@ -311,9 +315,9 @@
 								</div><!-- /.circle circle-/-blue -->
 
 								<div class="circle circle--big circle--yellow circle--yellow-bg">
-									<span class="fz-s">surrounding</span>
+									<span class="fz-s">HOOSIER</span>
 									
-									<span class="fz-s">areas</span>
+									<span class="fz-s">NATURAL FOREST</span>
 								</div><!-- /.circle circle-/-big circle-/-yellow circle-/-yellow-bg -->
 
 								<div class="circle circle--blue">
@@ -378,8 +382,6 @@
 					<div class="section__image section__image--full-width">
 						<figure>
 							<img src="<?php echo get_field('section_three_featured_image') ?>" alt="" width="762" height="329">
-					
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wind-energy.jpg" alt="" width="761" height="185">
 						</figure>
 					</div><!-- /.section__image -->
 					

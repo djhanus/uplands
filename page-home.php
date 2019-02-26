@@ -6,6 +6,8 @@
 			<div class="slider-intro">
 				<div class="slider__clip">
 					<div class="slider__slides">
+
+						<!-- MAP INTRO SLIDE -->
 						<div class="slider__slide">
 							<div class="intro__inner" style="background-image: url('<?php echo get_field('section_one_slide_a_image')?>');">
 								<div class="shell">
@@ -31,20 +33,19 @@
 							</div><!-- /.intro__inner -->
 						</div><!-- /.slider__slide -->
 
+						<!-- SINGLE SLIDE -->
 						<div class="slider__slide">
-							<div class="intro__inner" style="background-image: url('<?php echo get_field('section_one_slide_b_image')?>');">
+							<div class="intro__inner" style="background-image: url('<?php echo get_field('slider_image_1')?>');">
 								<div class="shell">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/map.png" alt="" class="intro__map" width="1044" height="646">
 									<div class="intro__content">
 										<figure style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);"></figure>
-
 										<div class="intro__content-inner">
 											<h3>
-												<?php echo get_field('section_one_slide_b_title')?>
+												<?php echo get_field('section_one_slide_a_title')?>
 											</h3>
 											
 											<p>
-												<?php echo get_field('section_one_slide_b_text')?>
+												<?php echo get_field('section_one_slide_a_text')?>
 											</p>
 											
 											<h1>
@@ -56,20 +57,19 @@
 							</div><!-- /.intro__inner -->
 						</div><!-- /.slider__slide -->
 
+						<!-- SINGLE SLIDE -->
 						<div class="slider__slide">
-							<div class="intro__inner" style="background-image: url('<?php echo get_field('section_one_slide_c_image')?>');">
+							<div class="intro__inner" style="background-image: url('<?php echo get_field('slider_image_2')?>');">
 								<div class="shell">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/map.png" alt="" class="intro__map" width="1044" height="646">
 									<div class="intro__content">
 										<figure style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);"></figure>
-
 										<div class="intro__content-inner">
 											<h3>
-												<?php echo get_field('section_one_slide_c_title')?>
+												<?php echo get_field('section_one_slide_a_title')?>
 											</h3>
 											
 											<p>
-												<?php echo get_field('section_one_slide_c_text')?>
+												<?php echo get_field('section_one_slide_a_text')?>
 											</p>
 											
 											<h1>
@@ -80,6 +80,104 @@
 								</div><!-- /.shell -->
 							</div><!-- /.intro__inner -->
 						</div><!-- /.slider__slide -->
+
+						<!-- SINGLE SLIDE -->
+						<div class="slider__slide">
+							<div class="intro__inner" style="background-image: url('<?php echo get_field('slider_image_3')?>');">
+								<div class="shell">
+									<div class="intro__content">
+										<figure style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);"></figure>
+										<div class="intro__content-inner">
+											<h3>
+												<?php echo get_field('section_one_slide_a_title')?>
+											</h3>
+											
+											<p>
+												<?php echo get_field('section_one_slide_a_text')?>
+											</p>
+											
+											<h1>
+												This is <span class="intro__medium">UPLANDS</span> <span class="intro__large">MADE</span>
+											</h1>
+										</div><!-- /.intro__content-inner -->
+									</div><!-- /.intro__content -->
+								</div><!-- /.shell -->
+							</div><!-- /.intro__inner -->
+						</div><!-- /.slider__slide -->
+
+						<!-- SINGLE SLIDE -->
+						<div class="slider__slide">
+							<div class="intro__inner" style="background-image: url('<?php echo get_field('slider_image_4')?>');">
+								<div class="shell">
+									<div class="intro__content">
+										<figure style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);"></figure>
+										<div class="intro__content-inner">
+											<h3>
+												<?php echo get_field('section_one_slide_a_title')?>
+											</h3>
+											
+											<p>
+												<?php echo get_field('section_one_slide_a_text')?>
+											</p>
+											
+											<h1>
+												This is <span class="intro__medium">UPLANDS</span> <span class="intro__large">MADE</span>
+											</h1>
+										</div><!-- /.intro__content-inner -->
+									</div><!-- /.intro__content -->
+								</div><!-- /.shell -->
+							</div><!-- /.intro__inner -->
+						</div><!-- /.slider__slide -->
+
+												<!-- SINGLE SLIDE -->
+						<div class="slider__slide">
+							<div class="intro__inner" style="background-image: url('<?php echo get_field('slider_image_5')?>');">
+								<div class="shell">
+									<div class="intro__content">
+										<figure style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);"></figure>
+										<div class="intro__content-inner">
+											<h3>
+												<?php echo get_field('section_one_slide_a_title')?>
+											</h3>
+											
+											<p>
+												<?php echo get_field('section_one_slide_a_text')?>
+											</p>
+											
+											<h1>
+												This is <span class="intro__medium">UPLANDS</span> <span class="intro__large">MADE</span>
+											</h1>
+										</div><!-- /.intro__content-inner -->
+									</div><!-- /.intro__content -->
+								</div><!-- /.shell -->
+							</div><!-- /.intro__inner -->
+						</div><!-- /.slider__slide -->
+
+												<!-- SINGLE SLIDE -->
+						<div class="slider__slide">
+							<div class="intro__inner" style="background-image: url('<?php echo get_field('slider_image_6')?>');">
+								<div class="shell">
+									<div class="intro__content">
+										<figure style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);"></figure>
+										<div class="intro__content-inner">
+											<h3>
+												<?php echo get_field('section_one_slide_a_title')?>
+											</h3>
+											
+											<p>
+												<?php echo get_field('section_one_slide_a_text')?>
+											</p>
+											
+											<h1>
+												This is <span class="intro__medium">UPLANDS</span> <span class="intro__large">MADE</span>
+											</h1>
+										</div><!-- /.intro__content-inner -->
+									</div><!-- /.intro__content -->
+								</div><!-- /.shell -->
+							</div><!-- /.intro__inner -->
+						</div><!-- /.slider__slide -->
+
+
 					</div><!-- /.slider__slides -->
 				</div><!-- /.slider__clip -->
 			</div><!-- /.slider -->
@@ -187,7 +285,7 @@
 											</h5>
 											
 											<p>
-												Suspendisse vitae felis ut purus consequat auctor id et libero.
+												Explore endless opportunities in the Indiana Uplands.
 											</p>
 										</header><!-- /.article__head -->
 									</article><!-- /.article -->
@@ -205,7 +303,7 @@
 											</h5>
 											
 											<p>
-												Nunc sit amet vehicula diam. Pellentesque non felis felis.
+												Gabi is applying creativity to electrical engineering to thrive in the Uplands.
 											</p>
 										</header><!-- /.article__head -->
 									</article><!-- /.article -->
@@ -223,7 +321,7 @@
 											</h5>
 											
 											<p>
-												Nunc sit amet vehicula diam. Pellentesque non felis felis.
+												Yolanda is bringing new ideas to improve manufacturing systems in the Uplands.
 											</p>
 										</header><!-- /.article__head -->
 									</article><!-- /.article -->
@@ -241,7 +339,7 @@
 											</h5>
 											
 											<p>
-												Nunc sit amet vehicula diam. Pellentesque non felis felis.
+												Trae’s rewarding work is saving lives in the Uplands and beyond.
 											</p>
 										</header><!-- /.article__head -->
 									</article><!-- /.article -->
@@ -266,25 +364,25 @@
 						<div class="slider__clip">
 							<div class="slider__slides">
 								<div class="slider__slide">
-									<div class="tile" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/woman-painting.jpg);">
+									<div class="tile" style="background-image: url(<?php echo get_field('news_feature_1_image','options'); ?>);">
 										<div class="tile__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left-normal.png);">
 											<div class="tile__content">
 												<article class="article">
 													<header class="article__head article__head--shrink">
 														<h3 class="title">
-															Brownstown Fund for the Arts
+															<?php echo get_field('news_feature_1_title', 'options'); ?>
 														</h3><!-- /.title -->
 													</header><!-- /.article__head -->
 
 													<div class="article__entry">
 
 														<p>
-															We don’t just create; we celebrate. Experience artisans displaying their canvases while teaching painting classes, local musicians performing community concerts, and chefs training Uplanders of all ages in the culinary arts. Through the Brownstown Fund for the Arts, Uplanders get a taste (or two) of artist-business partnerships, local expositions, and a sampling of all the wonder that is Uplands Made.
+															<?php echo get_field('news_feature_1_text','options'); ?>
 														</p>
 													</div><!-- /.article__entry -->
 
 													<div class="article__actions">
-														<a href="#" class="link-more">
+														<a href="<?php echo get_field('news_feature_1_link','options'); ?>" class="link-more">
 															Learn More
 														</a>
 													</div><!-- /.article__actions -->
@@ -295,25 +393,25 @@
 								</div><!-- /.slider__slide -->
 
 								<div class="slider__slide">
-									<div class="tile" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/engines.jpg);">
+									<div class="tile" style="background-image: url(<?php echo get_field('news_feature_2_image','options'); ?>);">
 										<div class="tile__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-right-normal.png);">
 											<div class="tile__content">
 												<article class="article">
 													<header class="article__head article__head--shrink">
 														<h3 class="title">
-															Jasper Engines
+															<?php echo get_field('news_feature_2_title','options'); ?>
 														</h3><!-- /.title -->
 													</header><!-- /.article__head -->
 
 													<div class="article__entry">
 
 														<p>
-															Since 1942, Jasper Engines has developed nation-leading technologies for remanufacturing auto parts. Then and now, the resources, landscape, and tenacity of workers in the Uplands put Jasper Engines at the head of the pack, growing through research and development while maintaining its local roots.
+															<?php echo get_field('news_feature_2_text','options'); ?>
 														</p>
 													</div><!-- /.article__entry -->
 
 													<div class="article__actions">
-														<a href="#" class="link-more">
+														<a href="<?php echo get_field('news_feature_2_link','options'); ?>" class="link-more" target="_blank">
 															Learn More
 														</a>
 													</div><!-- /.article__actions -->
@@ -324,25 +422,25 @@
 								</div><!-- /.slider__slide -->
 
 								<div class="slider__slide">
-									<div class="tile" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/woman-painting.jpg);">
+									<div class="tile" style="background-image: url(<?php echo get_field('news_feature_3_image','options'); ?>);">
 										<div class="tile__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left-normal.png);">
 											<div class="tile__content">
 												<article class="article">
 													<header class="article__head article__head--shrink">
 														<h3 class="title">
-															Brownstown Fund for the Arts
+															<?php echo get_field('news_feature_3_title','options'); ?>
 														</h3><!-- /.title -->
 													</header><!-- /.article__head -->
 
 													<div class="article__entry">
 
 														<p>
-															We don’t just create; we celebrate. Experience artisans displaying their canvases while teaching painting classes, local musicians performing community concerts, and chefs training Uplanders of all ages in the culinary arts. Through the Brownstown Fund for the Arts, Uplanders get a taste (or two) of artist-business partnerships, local expositions, and a sampling of all the wonder that is Uplands Made.
+															<?php echo get_field('news_feature_3_text','options'); ?> 
 														</p>
 													</div><!-- /.article__entry -->
 
 													<div class="article__actions">
-														<a href="#" class="link-more">
+														<a href="<?php echo get_field('news_feature_3_link','options'); ?>" class="link-more" target="_blank">
 															Learn More
 														</a>
 													</div><!-- /.article__actions -->
@@ -353,25 +451,25 @@
 								</div><!-- /.slider__slide -->
 
 								<div class="slider__slide">
-									<div class="tile" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/woman-painting.jpg);">
-										<div class="tile__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left-normal.png);">
+									<div class="tile" style="background-image: url(<?php echo get_field('news_feature_4_image','options'); ?>);">
+										<div class="tile__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-right-normal.png);">
 											<div class="tile__content">
 												<article class="article">
 													<header class="article__head article__head--shrink">
 														<h3 class="title">
-															Brownstown Fund for the Arts
+															<?php echo get_field('news_feature_4_title','options'); ?>
 														</h3><!-- /.title -->
 													</header><!-- /.article__head -->
 
 													<div class="article__entry">
 
 														<p>
-															We don’t just create; we celebrate. Experience artisans displaying their canvases while teaching painting classes, local musicians performing community concerts, and chefs training Uplanders of all ages in the culinary arts. Through the Brownstown Fund for the Arts, Uplanders get a taste (or two) of artist-business partnerships, local expositions, and a sampling of all the wonder that is Uplands Made.
+															<?php echo get_field('news_feature_4_text','options'); ?>
 														</p>
 													</div><!-- /.article__entry -->
 
 													<div class="article__actions">
-														<a href="#" class="link-more">
+														<a href="<?php echo get_field('news_feature_4_link','options'); ?>" class="link-more" target="_blank">
 															Learn More
 														</a>
 													</div><!-- /.article__actions -->
@@ -427,7 +525,7 @@
 					<div class="section__cols">
 						<div class="section__col section__col-1of4">
 							<article class="article article--small">
-								<div class="article__image" style="background-image: url(<?php echo get_field('event_1_image', 'option'); ?>);"></div><!-- /.article__image -->
+								<a href="/whats-on/"><div class="article__image" style="background-image: url(<?php echo get_field('event_1_image', 'option'); ?>);"></div></a><!-- /.article__image -->
 								
 								<header class="article__head">
 									<h5>
@@ -445,7 +543,7 @@
 						
 						<div class="section__col section__col-1of4">
 							<article class="article article--small">
-								<div class="article__image" style="background-image: url(<?php echo get_field('event_2_image', 'option'); ?>);"></div><!-- /.article__image -->
+								<a href="/whats-on/"><div class="article__image" style="background-image: url(<?php echo get_field('event_2_image', 'option'); ?>);"></div></a><!-- /.article__image -->
 								
 								<header class="article__head">
 									<h5>
@@ -463,7 +561,7 @@
 						
 						<div class="section__col section__col-1of4">
 							<article class="article article--small">
-								<div class="article__image" style="background-image: url(<?php echo get_field('event_3_image', 'option'); ?>);"></div><!-- /.article__image -->
+								<a href="/whats-on/"><div class="article__image" style="background-image: url(<?php echo get_field('event_3_image', 'option'); ?>);"></div></a><!-- /.article__image -->
 								
 								<header class="article__head">
 									<h5>
@@ -481,7 +579,7 @@
 						
 						<div class="section__col section__col-1of4">
 							<article class="article article--small">
-								<div class="article__image" style="background-image: url(<?php echo get_field('event_4_image', 'option'); ?>);"></div><!-- /.article__image -->
+								<a href="/whats-on/"><div class="article__image" style="background-image: url(<?php echo get_field('event_4_image', 'option'); ?>);"></div></a><!-- /.article__image -->
 								
 								<header class="article__head">
 									<h5>

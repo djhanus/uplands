@@ -27,7 +27,7 @@
 				<div class="section__inner">
 					<div class="section__image section__image--full-width">
 						<figure>
-							<img src="<?php echo get_field('section_one_featured_image') ?>" alt="" width="959" height="725">
+							<img src="<?php echo get_field('section_one_image') ?>" alt="" width="959" height="725">
 						</figure>
 					</div><!-- /.section__image -->
 					

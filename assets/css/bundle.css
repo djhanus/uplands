@@ -914,7 +914,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 
 .intro .intro__inner .shell { position: relative; }
 
-.intro .intro__map { position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); z-index: 1; }
+.intro .intro__map { position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); z-index: 0; }
 
 .intro .intro__content-inner { position: relative; max-width: 420px; z-index: 2; }
 

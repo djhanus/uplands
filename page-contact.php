@@ -283,15 +283,15 @@
 					<div class="article__body">
 						<ul class="list-links">
 							<li>
-								<a href="<?php echo get_field('contact_roi')?>">REGIONAL OPPORTUNITY INITIATIVES, INC. (ROI)</a>
+								<a href="<?php echo get_field('contact_roi', 'options')?>"" target="_blank">REGIONAL OPPORTUNITY INITIATIVES, INC. (ROI)</a>
 							</li>
 							
 							<li>
-								<a href="<?php echo get_field('contact_in3')?>">INDIANA INNOVATION INSTITUTE (IN3)</a>
+								<a href="<?php echo get_field('contact_in3', 'options')?>" target="_blank">INDIANA INNOVATION INSTITUTE (IN3)</a>
 							</li>
 							
 							<li>
-								<a href="<?php echo get_field('contact_cre')?>">INDIANA UNIVERSITY CENTER FOR RURAL ENGAGEMENT (CRE)</a>
+								<a href="<?php echo get_field('contact_cre', 'options')?>" target="_blank">INDIANA UNIVERSITY CENTER FOR RURAL ENGAGEMENT</a>
 							</li>
 						</ul><!-- /.list-links -->
 					</div><!-- /.article__body -->

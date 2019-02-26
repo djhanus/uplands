@@ -36,13 +36,13 @@
 				<div class="section__inner">
 					<div class="section__image">
 						<figure class="multi-images">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/camp-fire.jpg" alt="" width="408" height="283">
+							<img src="<?php echo get_field('image_1'); ?>" alt="" width="408" height="auto">
 					
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/white-house.jpg" alt="" width="404" height="282">
+							<img src="<?php echo get_field('image_2'); ?>" alt="" width="408" height="auto">
 					
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/university.jpg" alt="" width="407" height="280">
+							<img src="<?php echo get_field('image_3'); ?>" alt="" width="408" height="auto">
 					
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/chilling.jpg" alt="" width="404" height="281">
+							<img src="<?php echo get_field('image_4'); ?>" alt="" width="408" height="auto">
 						</figure>
 					</div><!-- /.section__image -->
 					
@@ -73,7 +73,7 @@
 
 		<div class="section-wood">
 			<div class="shell">
-				<div class="section__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/cup-watching.jpg);">
+				<div class="section__inner" style="background-image: url(<?php echo get_field('image'); ?>);">
 					<div class="section__body" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);">
 						<div class="section__content">
 							<h4 class="title">
@@ -106,7 +106,7 @@
 				<div class="section__inner">
 					<div class="section__image">
 						<figure>
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/gourme.jpg" alt="" width="835" height="588">
+							<img src="<?php echo get_field('image1'); ?>" alt="" width="835" height="588">
 						</figure>
 					</div><!-- /.section__image -->
 					
@@ -137,7 +137,7 @@
 
 		<div class="section-wood">
 			<div class="shell">
-				<div class="section__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/canoeing.jpg);">
+				<div class="section__inner" style="background-image: url(<?php echo get_field('image2'); ?>);">
 					<div class="section__body section--wider" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left.png);">
 						<div class="section__content">
 							<h4 class="title">

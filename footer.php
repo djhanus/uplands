@@ -112,15 +112,15 @@
 						</h6>
 
 						<p>
-							Regional Opportunity Initiatives, Inc. (ROI)
+							<a href="<?php echo get_field('contact_roi', 'options')?>" target="_blank">Regional Opportunity Initiatives, Inc. (ROI)</a>
 						</p>
 						
 						<p>
-							Indiana Innovation Institute (IN3)
+							<a href="<?php echo get_field('contact_in3', 'options')?>" target="_blank">Indiana Innovation Institute (IN3)</a>
 						</p>
 						
 						<p>
-							Indiana University Center for Rural Engagement (CRE)
+							<a href="<?php echo get_field('contact_cre', 'options')?>" target="_blank">Indiana University Center for Rural Engagement</a>
 						</p>
 					</div><!-- /.footer__item -->
 				</div><!-- /.footer__col -->
