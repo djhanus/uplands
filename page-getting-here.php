@@ -19,7 +19,7 @@
 			</div><!-- /.shell -->
 		</div><!-- /.section-article -->
 
-		<section class="section-counties section--map" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/map-frame.jpg);">
+		<section class="section-counties section--map" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/counties-bg.jpg);">
 			<div class="shell">
 				<div class="section__body">
 					<div class="section__group">

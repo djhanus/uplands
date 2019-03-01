@@ -261,7 +261,7 @@
 			</div><!-- /.shell -->
 		</div><!-- /.section-benefits -->
 
-		<section class="section section--innovations">
+		<section class="section section--innovations" style="display: none;">
 			<div class="shell">
 				<header class="section__head">
 					<h2>

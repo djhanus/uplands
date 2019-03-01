@@ -22,7 +22,7 @@
 			</div><!-- /.intro__inner -->
 		</div><!-- /.intro -->
 
-		<div class="section-media-main decoration-bottom decoration-top decoration-dark">
+		<div class="section-media-main decoration-bottom decoration-top decoration-dark" style="display: none;">
 			<div class="shell">
 				<div class="section__body">
 					<article class="article-media article-media--alt">
@@ -50,7 +50,7 @@
 			</div><!-- /.shell -->
 		</div><!-- /.section-media-main -->
 
-		<div class="section-media">
+		<div class="section-media" style="display: none;">
 			<div class="shell">
 				<div class="section__body">
 					<div class="section__row">
