@@ -87,7 +87,7 @@
 												</span>
 												
 												<span>
-													<?php echo get_field('event_1_location', 'option'); ?>
+													<a href="<?php echo get_field('event_1_location_url', 'option'); ?>" target="_blank"><?php echo get_field('event_1_location', 'option'); ?></a>
 												</span>
 											</p>
 										</div><!-- /.article__entry -->
@@ -117,7 +117,7 @@
 												</span>
 												
 												<span>
-													<?php echo get_field('event_2_location', 'option'); ?>
+													<a href="<?php echo get_field('event_2_location_url', 'option'); ?>" target="_blank"><?php echo get_field('event_2_location', 'option'); ?></a>
 												</span>
 											</p>
 										</div><!-- /.article__entry -->
@@ -151,7 +151,7 @@
 												</span>
 												
 												<span>
-													<?php echo get_field('event_3_location', 'option'); ?>
+													<a href="<?php echo get_field('event_3_location_url', 'option'); ?>" target="_blank"><?php echo get_field('event_3_location', 'option'); ?></a>
 												</span>
 											</p>
 										</div><!-- /.article__entry -->
@@ -181,7 +181,7 @@
 												</span>
 												
 												<span>
-													<?php echo get_field('event_4_location', 'option'); ?>
+													<a href="<?php echo get_field('event_4_location_url', 'option'); ?>" target="_blank"><?php echo get_field('event_4_location', 'option'); ?></a>
 												</span>
 											</p>
 										</div><!-- /.article__entry -->
@@ -190,6 +190,71 @@
 							</div><!-- /.section__col -->
 						</div><!-- /.section__cols -->
 					</div><!-- /.section__row -->
+
+					<div class="section__row">
+						<div class="section__cols">
+							<div class="section__col">
+								<article class="article-media article-media--small">
+									<div class="article__image" style="background-image: url(<?php echo get_field('event_5_image', 'option'); ?>);"></div><!-- /.article__image -->
+
+									<div class="article__body">
+										<header class="article__head">
+											<h3 class="title">
+												<?php echo get_field('event_5_title', 'option'); ?>
+											</h3><!-- /.title -->
+										</header><!-- /.article__head -->
+
+										<div class="article__entry">
+											<p>
+												<?php echo get_field('event_5_description', 'option'); ?>
+											</p>
+
+											<p>
+												<span>
+													<?php echo get_field('event_5_date', 'option'); ?>
+												</span>
+												
+												<span>
+													<a href="<?php echo get_field('event_5_location_url', 'option'); ?>" target="_blank"><?php echo get_field('event_5_location', 'option'); ?></a>
+												</span>
+											</p>
+										</div><!-- /.article__entry -->
+									</div><!-- /.article__body -->
+								</article><!-- /.article-media -->
+							</div><!-- /.section__col -->
+
+							<div class="section__col">
+								<article class="article-media article-media--small">
+									<div class="article__image" style="background-image: url(<?php echo get_field('event_6_image', 'option'); ?>);"></div><!-- /.article__image -->
+
+									<div class="article__body">
+										<header class="article__head">
+											<h3 class="title">
+												<?php echo get_field('event_6_title', 'option'); ?>
+											</h3><!-- /.title -->
+										</header><!-- /.article__head -->
+
+										<div class="article__entry">
+											<p>
+												<?php echo get_field('event_6_description', 'option'); ?>
+											</p>
+
+											<p>
+												<span>
+													<?php echo get_field('event_6_date', 'option'); ?>
+												</span>
+												
+												<span>
+													<a href="<?php echo get_field('event_6_location_url', 'option'); ?>" target="_blank"><?php echo get_field('event_6_location', 'option'); ?></a>
+												</span>
+											</p>
+										</div><!-- /.article__entry -->
+									</div><!-- /.article__body -->
+								</article><!-- /.article-media -->
+							</div><!-- /.section__col -->
+						</div><!-- /.section__cols -->
+					</div><!-- /.section__row -->
+
 				</div><!-- /.section__body -->
 			</div><!-- /.shell -->
 		</div><!-- /.section-media -->
