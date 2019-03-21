@@ -1,14 +1,14 @@
 <?php get_header();
 
 	/* Template Name: Home */ ?>
-	
+
 		<div class="intro intro--padding">
 			<div class="slider-intro">
 				<div class="slider__clip">
 					<div class="slider__slides">
 
 						<!-- MAP INTRO SLIDE -->
-						<div class="slider__slide">
+						<div class="slider__slide intro">
 							<div class="intro__inner" style="background-image: url('<?php echo get_field('section_one_slide_a_image')?>');">
 								<div class="shell">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/map.png" alt="" class="intro__map" width="1044" height="646">
@@ -19,11 +19,11 @@
 											<h3>
 												<?php echo get_field('section_one_slide_a_title')?>
 											</h3>
-											
+
 											<p>
 												<?php echo get_field('section_one_slide_a_text')?>
 											</p>
-											
+
 											<h1>
 												This is <span class="intro__medium">UPLANDS</span> <span class="intro__large">MADE</span>
 											</h1>
@@ -43,11 +43,11 @@
 											<h3>
 												<?php echo get_field('section_one_slide_a_title')?>
 											</h3>
-											
+
 											<p>
 												<?php echo get_field('section_one_slide_a_text')?>
 											</p>
-											
+
 											<h1>
 												This is <span class="intro__medium">UPLANDS</span> <span class="intro__large">MADE</span>
 											</h1>
@@ -67,11 +67,11 @@
 											<h3>
 												<?php echo get_field('section_one_slide_a_title')?>
 											</h3>
-											
+
 											<p>
 												<?php echo get_field('section_one_slide_a_text')?>
 											</p>
-											
+
 											<h1>
 												This is <span class="intro__medium">UPLANDS</span> <span class="intro__large">MADE</span>
 											</h1>
@@ -91,11 +91,11 @@
 											<h3>
 												<?php echo get_field('section_one_slide_a_title')?>
 											</h3>
-											
+
 											<p>
 												<?php echo get_field('section_one_slide_a_text')?>
 											</p>
-											
+
 											<h1>
 												This is <span class="intro__medium">UPLANDS</span> <span class="intro__large">MADE</span>
 											</h1>
@@ -115,11 +115,11 @@
 											<h3>
 												<?php echo get_field('section_one_slide_a_title')?>
 											</h3>
-											
+
 											<p>
 												<?php echo get_field('section_one_slide_a_text')?>
 											</p>
-											
+
 											<h1>
 												This is <span class="intro__medium">UPLANDS</span> <span class="intro__large">MADE</span>
 											</h1>
@@ -139,11 +139,11 @@
 											<h3>
 												<?php echo get_field('section_one_slide_a_title')?>
 											</h3>
-											
+
 											<p>
 												<?php echo get_field('section_one_slide_a_text')?>
 											</p>
-											
+
 											<h1>
 												This is <span class="intro__medium">UPLANDS</span> <span class="intro__large">MADE</span>
 											</h1>
@@ -163,11 +163,11 @@
 											<h3>
 												<?php echo get_field('section_one_slide_a_title')?>
 											</h3>
-											
+
 											<p>
 												<?php echo get_field('section_one_slide_a_text')?>
 											</p>
-											
+
 											<h1>
 												This is <span class="intro__medium">UPLANDS</span> <span class="intro__large">MADE</span>
 											</h1>
@@ -189,19 +189,19 @@
 					<div class="section__col section__col-1of3">
 						<article class="article">
 							<div class="article__image" style="background-image: url('<?php echo get_field('section_two_image_a')?>');"></div><!-- /.article__image -->
-							
+
 							<div class="article__head article__head--shrink">
 								<h4 class="title">
 									<?php echo get_field('section_two_title_a')?>
 								</h4><!-- /.title -->
 							</div><!-- /.article__head -->
-							
+
 							<div class="article__entry">
 								<p>
 									<?php echo get_field('section_two_text_a')?>
 								</p>
 							</div><!-- /.article__entry -->
-							
+
 							<div class="article__actions">
 								<a href="/develop/">
 									Business in the Uplands
@@ -209,23 +209,23 @@
 							</div><!-- /.article__actions -->
 						</article><!-- /.article -->
 					</div><!-- /.section__col section__col-1of3 -->
-					
+
 					<div class="section__col section__col-1of3">
 						<article class="article">
 							<div class="article__image" style="background-image: url('<?php echo get_field('section_two_image_b')?>');"></div><!-- /.article__image -->
-							
+
 							<div class="article__head article__head--shrink">
 								<h4 class="title">
 									<?php echo get_field('section_two_title_b')?>
 								</h4><!-- /.title -->
 							</div><!-- /.article__head -->
-							
+
 							<div class="article__entry">
 								<p>
 									<?php echo get_field('section_two_text_b')?>
 								</p>
 							</div><!-- /.article__entry -->
-							
+
 							<div class="article__actions">
 								<a href="/work/">
 									Working in the Uplands
@@ -233,23 +233,23 @@
 							</div><!-- /.article__actions -->
 						</article><!-- /.article -->
 					</div><!-- /.section__col section__col-1of3 -->
-					
+
 					<div class="section__col section__col-1of3">
 						<article class="article">
 							<div class="article__image" style="background-image: url('<?php echo get_field('section_two_image_c')?>');"></div><!-- /.article__image -->
-							
+
 							<div class="article__head article__head--shrink">
 								<h4 class="title">
 									<?php echo get_field('section_two_title_c')?>
 								</h4><!-- /.title -->
 							</div><!-- /.article__head -->
-							
+
 							<div class="article__entry">
 								<p>
-									<?php echo get_field('section_two_text_c')?> 
+									<?php echo get_field('section_two_text_c')?>
 								</p>
 							</div><!-- /.article__entry -->
-							
+
 							<div class="article__actions">
 								<a href="/live/">
 									Living in the Uplands
@@ -283,7 +283,7 @@
 											<h5>
 												<?php echo get_field('video_1_title'); ?>
 											</h5>
-											
+
 											<p>
 												Explore endless opportunities in the Indiana Uplands.
 											</p>
@@ -301,7 +301,7 @@
 											<h5>
 												2
 											</h5>
-											
+
 											<p>
 												Gabi is applying creativity to electrical engineering to thrive in the Uplands.
 											</p>
@@ -319,7 +319,7 @@
 											<h5>
 												3
 											</h5>
-											
+
 											<p>
 												Yolanda is bringing new ideas to improve manufacturing systems in the Uplands.
 											</p>
@@ -337,7 +337,7 @@
 											<h5>
 												4
 											</h5>
-											
+
 											<p>
 												Trae’s rewarding work is saving lives in the Uplands and beyond.
 											</p>
@@ -435,7 +435,7 @@
 													<div class="article__entry">
 
 														<p>
-															<?php echo get_field('news_feature_3_text','options'); ?> 
+															<?php echo get_field('news_feature_3_text','options'); ?>
 														</p>
 													</div><!-- /.article__entry -->
 
@@ -526,13 +526,13 @@
 						<div class="section__col section__col-1of4">
 							<article class="article article--small">
 								<a href="/whats-on/"><div class="article__image" style="background-image: url(<?php echo get_field('event_1_image', 'option'); ?>);"></div></a><!-- /.article__image -->
-								
+
 								<header class="article__head">
 									<h5>
 										<?php echo get_field('event_1_title', 'option'); ?>
 									</h5>
 								</header><!-- /.article__head -->
-								
+
 								<div class="article__entry">
 									<p>
 										<?php echo get_field('event_1_description', 'option'); ?>
@@ -540,17 +540,17 @@
 								</div><!-- /.article__entry -->
 							</article><!-- /.article -->
 						</div><!-- /.section__col section__col-1of4 -->
-						
+
 						<div class="section__col section__col-1of4">
 							<article class="article article--small">
 								<a href="/whats-on/"><div class="article__image" style="background-image: url(<?php echo get_field('event_2_image', 'option'); ?>);"></div></a><!-- /.article__image -->
-								
+
 								<header class="article__head">
 									<h5>
 										<?php echo get_field('event_2_title', 'option'); ?>
 									</h5>
 								</header><!-- /.article__head -->
-								
+
 								<div class="article__entry">
 									<p>
 										<?php echo get_field('event_2_description', 'option'); ?>
@@ -558,17 +558,17 @@
 								</div><!-- /.article__entry -->
 							</article><!-- /.article -->
 						</div><!-- /.section__col section__col-1of4 -->
-						
+
 						<div class="section__col section__col-1of4">
 							<article class="article article--small">
 								<a href="/whats-on/"><div class="article__image" style="background-image: url(<?php echo get_field('event_3_image', 'option'); ?>);"></div></a><!-- /.article__image -->
-								
+
 								<header class="article__head">
 									<h5>
 										<?php echo get_field('event_3_title', 'option'); ?>
 									</h5>
 								</header><!-- /.article__head -->
-								
+
 								<div class="article__entry">
 									<p>
 										<?php echo get_field('event_3_description', 'option'); ?>
@@ -576,17 +576,17 @@
 								</div><!-- /.article__entry -->
 							</article><!-- /.article -->
 						</div><!-- /.section__col section__col-1of4 -->
-						
+
 						<div class="section__col section__col-1of4">
 							<article class="article article--small">
 								<a href="/whats-on/"><div class="article__image" style="background-image: url(<?php echo get_field('event_4_image', 'option'); ?>);"></div></a><!-- /.article__image -->
-								
+
 								<header class="article__head">
 									<h5>
 										<?php echo get_field('event_4_title', 'option'); ?>
 									</h5>
 								</header><!-- /.article__head -->
-								
+
 								<div class="article__entry">
 									<p>
 										<?php echo get_field('event_4_description', 'option'); ?>
