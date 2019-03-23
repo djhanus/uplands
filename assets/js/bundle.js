@@ -140,7 +140,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
                 asNavFor: null,
                 prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
                 nextArrow: '<button class="slick-next" aria-label="Next" type="button">Next</button>',
-                autoplay: false,
+                autoplay: true,
                 autoplaySpeed: 3000,
                 centerMode: false,
                 centerPadding: '50px',
@@ -3179,14 +3179,24 @@ $('.slider-news .slider__slides').slick({
     }
   }]
 });
-$('.tabs .tabs__nav a').on('click', function (event) {
-  event.preventDefault();
-  var $this = $(this);
-  var target = $this.attr('href');
-  var activeClass = 'current';
-  var parentSelector = '.tabs';
-  $this.parent().addClass(activeClass).siblings().removeClass(activeClass).closest(parentSelector).find(target).addClass(activeClass).siblings().removeClass(activeClass);
+$('.page-template-page-contact .tabs__nav ul li')
+.on('click', function(e) {
+    e.preventDefault;
+
+    let $this          = $(this),
+    activateClass      = 'current',
+    emailSubject       = $this.data('subject'),
+    emailSubjectInput  = $('form input[name="subject"]');
+
+    $this
+    .addClass(activateClass)
+    .siblings()
+    .removeClass(activateClass);
+
+    emailSubjectInput.attr("disabled", true);
+    emailSubjectInput.val(`Subject: ${emailSubject}`);
 });
+$('.page-template-page-contact form input, textarea').addClass('field');
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "jquery")))
 
 /***/ }),
