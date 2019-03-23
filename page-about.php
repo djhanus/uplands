@@ -193,22 +193,22 @@
 								<div class="circle circle--yellow">
 									<div class="circle__content">
 										<span class="fz-m"><?php echo get_field('cities_and_towns')?></span>
-							
+
 										<span>Cities & Towns</span>
 									</div><!-- /.circle__content -->
 								</div><!-- /.circle -->
-							
+
 								<div class="circle circle--big circle--blue circle--blue-bg">
 									<span class="fz-xs">
 										population
 									</span>
-							
+
 									<span class="fz-xl"><?php echo get_field('population')?></span>
 								</div><!-- /.circle circle-/-big circle-/-blue circle-/-blue-bg -->
-							
+
 								<div class="circle circle--yellow">
 									<span class="fz-m"><?php echo get_field('total_square_miles')?></span>
-							
+
 									<span>square miles</span>
 								</div><!-- /.circle circle-/-yellow -->
 							</div><!-- /.circles__group -->
@@ -216,9 +216,9 @@
 							<div class="circles__group">
 								<div class="circle circle--big circle--yellow circle--yellow-bg">
 									<span class="fz-s">Key</span>
-									
+
 									<span class="fz-s">Industry</span>
-									
+
 									<span class="fz-s">Sectors</span>
 								</div><!-- /.circle circle-/-big circle-/-yellow circle-/-yellow-bg -->
 
@@ -240,7 +240,7 @@
 							<div class="circles__group">
 								<div class="circle circle--big circle--yellow circle--yellow-bg">
 									<span class="fz-s">major</span>
-									
+
 									<span class="fz-s">employers</span>
 								</div><!-- /.circle circle-/-big circle-/-yellow circle-/-yellow-bg -->
 
@@ -267,6 +267,10 @@
 								<div class="circle circle--blue">
 									<span><?php echo get_field('major_employer_6')?></span>
 								</div><!-- /.circle circle-/-blue -->
+
+								<div class="circle circle--blue">
+									<span><?php echo get_field('major_employer_7')?></span>
+								</div><!-- /.circle circle-/-blue -->
 							</div><!-- /.circles__group -->
 						</div><!-- /.circles__row -->
 
@@ -276,7 +280,7 @@
 									<span class="fz-l"><?php echo get_field('people_in_workforce')?></span>
 
 									<span class="fz-xs">people in</span>
-									
+
 									<span class="fz-xs">workforce</span>
 								</div><!-- /.circle circle-/-medium circle-/-blue circle-/-blue-bg -->
 							</div><!-- /.circles__group -->
@@ -316,7 +320,7 @@
 
 								<div class="circle circle--big circle--yellow circle--yellow-bg">
 									<span class="fz-s">HOOSIER</span>
-									
+
 									<span class="fz-s">NATURAL FOREST</span>
 								</div><!-- /.circle circle-/-big circle-/-yellow circle-/-yellow-bg -->
 
@@ -336,20 +340,20 @@
 					<div class="section__image">
 						<figure class="multi-images">
 							<img src="<?php echo get_field('section_one_image_1') ?>" alt="" width="389" height="257">
-					
+
 							<img src="<?php echo get_field('section_one_image_2') ?>" alt="" width="389" height="257">
-					
+
 							<img src="<?php echo get_field('section_one_image_3') ?>" alt="" width="389" height="257">
-					
+
 							<img src="<?php echo get_field('section_one_image_4') ?>" alt="" width="389" height="257">
 						</figure>
 					</div><!-- /.section__image -->
-					
+
 					<div class="section__body">
 						<h4 class="title">
 							<?php echo get_field('section_one_main_title') ?>
 						</h4><!-- /.title -->
-					
+
 						<p>
 							<?php echo get_field('section_one_paragraph') ?>
 						</p>
@@ -384,12 +388,12 @@
 							<img src="<?php echo get_field('section_three_featured_image') ?>" alt="" width="762" height="329">
 						</figure>
 					</div><!-- /.section__image -->
-					
+
 					<div class="section__body">
 						<h4 class="title">
 							<?php echo get_field('section_three_main_title') ?>
 						</h4><!-- /.title -->
-					
+
 						<p>
 							<?php echo get_field('section_three_paragraph') ?>
 						</p>
