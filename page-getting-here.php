@@ -1,7 +1,7 @@
 <?php get_header();
 
 	/* Template Name: Getting Here */ ?>
-	
+
 	<div class="main">
 		<div class="section-article">
 			<div class="shell">
@@ -19,7 +19,7 @@
 			</div><!-- /.shell -->
 		</div><!-- /.section-article -->
 
-		<section class="section-counties section--map" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/counties-bg.jpg);">
+		<section class="section-counties section--map" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/counties-bg-2.jpg);">
 			<div class="shell">
 				<div class="section__body">
 					<div class="section__group">
@@ -175,7 +175,7 @@
 									</div><!-- /.list__name -->
 								</a>
 							</li>
-							
+
 							<li>
 								<a href="#">
 									<div class="list__image">
@@ -187,7 +187,7 @@
 									</div><!-- /.list__name -->
 								</a>
 							</li>
-							
+
 							<li>
 								<a href="#">
 									<div class="list__image">
@@ -199,7 +199,7 @@
 									</div><!-- /.list__name -->
 								</a>
 							</li>
-							
+
 							<li>
 								<a href="#">
 									<div class="list__image">
@@ -211,7 +211,7 @@
 									</div><!-- /.list__name -->
 								</a>
 							</li>
-							
+
 							<li>
 								<a href="#">
 									<div class="list__image">
@@ -223,7 +223,7 @@
 									</div><!-- /.list__name -->
 								</a>
 							</li>
-							
+
 							<li>
 								<a href="#">
 									<div class="list__image">
@@ -269,7 +269,7 @@
 													<li><strong>Louisville:</strong> <?php echo get_field('louisville_directions')?></li>
 
 													<li><strong>Cincinnati:</strong> <?php echo get_field('cincinnati_directions')?></li>
-													
+
 													<li><strong>EVANSVILLE:</strong> <?php echo get_field('evansville_directions')?></li>
 												</ul><!-- /.list-simple -->
 											</div><!-- /.col -->
@@ -277,7 +277,7 @@
 											<div class="col col--1of2">
 												<ul class="list-simple">
 													<li><strong>Indianapolis:</strong> <?php echo get_field('indianapolis_directions')?></li>
-													
+
 													<li><strong>St.Louis:</strong> <?php echo get_field('st_louis_directions')?></li>
 												</ul><!-- /.list-simple -->
 											</div><!-- /.col -->

@@ -1548,7 +1548,12 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 	Section Map
 \* ------------------------------------------------------------ */
 
-.section--map { min-height: 52vw; margin-bottom: 115px; padding: 100px 0; background-position: right top; }
+.section--map { position: relative; min-height: 52vw; margin-bottom: 115px; padding: 100px 0; background-position: right top; overflow: hidden; }
+
+/* note: this image is actually bitmap -_-, */
+.section--map:before { position: absolute; content: ''; height: 698px; width: 400px; top: -350px; left: 65%; transform: translate(-50%); background-image: url('../images/temp/map-markers.svg'); background-size: contain;}
+
+.section--map:after { position: absolute; content: ''; height: 100%; width: 100%; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.2); }
 
 .section--map .section__body { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; width: 50%; }
 
@@ -1558,7 +1563,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 
 .section--map .list-counties { max-width: 100%; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: column wrap; flex-flow: column wrap; text-transform: uppercase; font-size: 33px; }
 
-.section--map .list-counties li { max-width: none; min-width: 200px; min-height: 94px; padding: 0 18px 12px; }
+.section--map .list-counties li { z-index: 10; max-width: none; min-width: 200px; min-height: 94px; padding: 0 18px 12px; }
 
 .section--map .list-counties .list__image { margin-right: 14px; }
 
