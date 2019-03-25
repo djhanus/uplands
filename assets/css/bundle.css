@@ -910,7 +910,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 
 .intro p { margin-bottom: 30px; }
 
-.intro .intro__inner { background-size: contain; background-repeat: no-repeat; background-position: right 30%; }
+.intro .intro__inner { background-size: cover; background-repeat: no-repeat; background-position: top 0 right 30%; }
 
 @media (min-width: 1500px) {
     .intro .intro__inner { background-size: cover; }    /* bg image fix for no black margin */
@@ -925,18 +925,39 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 .intro .intro__content { position: relative; width: 660px; max-width: 50%; padding: 85px 0; text-align: center; }
 
 .intro .intro__content figure { position: absolute; top: 0; bottom: 0; right: 0; width: 50vw; background-size: 100% auto; background-repeat: no-repeat; background-position: right center; background-size: cover; z-index: 0; }
+.page-template-page-news .intro .intro__inner {  background-position: top 0 right -250px;  }
 
 /* Mobile */
 
 @media (max-width: 767px) {
     .slider__slide.intro .shell img { display: none; }
-    .intro .intro__inner { background-size: contain; background-position: right 0 top 404px; }
+    .intro .intro__inner { background-position-y: 420px; background-size: 169%; background-position-x: -260px; height: 650px; }
     .intro .intro__inner .shell { height: 100%; min-height: 800px; }
 	.intro .intro__content { padding: 30px 0; }
     .intro .intro__content figure { right: -200px; width: calc(100vw + 220px) !important; }
 	.intro .intro__content-inner { margin: 0 auto !important; }
 
+    .page-template-page-about .intro__inner { background-position-y: 190px; background-position-x: -350px; }
+    .page-template-page-develop .intro .intro__inner { background-position-y: 320px; }
+    .page-template-page-work .intro .intro__inner { background-position-y: 268px; background-position-x: -320px; }
+    .page-template-page-live .intro .intro__inner { background-position-y: 300px !important; }
+    .page-template-page-news .intro .intro__inner {  background-position: top 200px right 0;  }
+    .page-template-page-innovations .intro .intro__inner { background-position-y: 330px; }
+    .page-template-page-enjoy-explore .intro .intro__inner { background-position-y: 330px; background-position-x: -420px; }
+    .page-template-page-whats-on .intro .intro__inner { background-position-y: 330px; background-position-x: -420px; }
+
     .intro p { margin: 0; }
+}
+
+@media all and (min-width: 300px) and (max-width: 575px){
+    .page-template-page-about .intro__inner { background-position-y: 295px; background-position-x: -180px; }
+    .page-template-page-develop .intro .intro__inner { background-position-y: 290px; }
+    .page-template-page-work .intro .intro__inner { background-position-y: 327px; background-position-x: -260px; }
+    .page-template-page-live .intro .intro__inner { background-position-y: 368px; }
+    .page-template-page-news .intro .intro__inner {  background-position: top 200px right 0;  }
+    .page-template-page-innovations .intro .intro__inner { background-position-y: 330px; }
+    .page-template-page-enjoy-explore .intro .intro__inner { background-position-y: 330px; background-position-x: -240px; }
+    .page-template-page-whats-on .intro .intro__inner { background-position-y: 330px; background-position-x: -240px; }
 }
 
 /* ------------------------------------------------------------ *\
@@ -1264,17 +1285,17 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 
 /* ACF oEmbed Styles */
 
-    .embed-container { 
-        position: relative; 
+    .embed-container {
+        position: relative;
         padding-bottom: 56.25%;
         overflow: hidden;
         max-width: 100%;
         height: auto;
-    } 
+    }
 
     .embed-container iframe,
     .embed-container object,
-    .embed-container embed { 
+    .embed-container embed {
         position: absolute;
         top: 0;
         left: 0;
@@ -1707,12 +1728,12 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 	Slider Intro
 \* ------------------------------------------------------------ */
 
-.slider-intro .slick-dots { position: absolute; bottom: 50px; right: 50px; }
+.slider-intro .slick-dots { position: absolute; bottom: 200px; right: 100px; }
 
 /* Mobile */
 
 @media (max-width: 767px) {
-	.slider-intro .slick-dots { bottom: 12px; position: relative; right: 0; left: 0; display: flex; justify-content: center; align-items: center; }
+	.slider-intro .slick-dots { top: -90px; position: relative; right: 0; left: 0; display: flex; justify-content: center; align-items: center; }
 }
 
 /* ------------------------------------------------------------ *\
