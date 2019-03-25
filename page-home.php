@@ -261,7 +261,7 @@
 			</div><!-- /.shell -->
 		</div><!-- /.section-benefits -->
 
-		<section class="section section--innovations" style="display: none;">
+		<section class="section section--innovations">
 			<div class="shell">
 				<header class="section__head">
 					<h2>
@@ -276,16 +276,18 @@
 								<div class="slider__slide">
 									<article class="article">
 										<div class="article__media">
-											<iframe width="1280" height="720" src="https://www.youtube.com/embed/NpEaa2P7qZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+											<div class="embed-container">
+												<?php the_field('video_1_url', 'options'); ?>
+											</div
 										</div><!-- /.article__media -->
 
 										<header class="article__head">
 											<h5>
-												<?php echo get_field('video_1_title'); ?>
+												<?php echo get_field('video_1_title', 'options'); ?>
 											</h5>
 
 											<p>
-												Explore endless opportunities in the Indiana Uplands.
+												<?php echo get_field('video_1_text', 'options'); ?>
 											</p>
 										</header><!-- /.article__head -->
 									</article><!-- /.article -->
@@ -294,16 +296,18 @@
 								<div class="slider__slide">
 									<article class="article">
 										<div class="article__media">
-											<iframe width="1280" height="720" src="https://www.youtube.com/embed/NpEaa2P7qZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+											<div class="embed-container">
+												<?php the_field('video_2_url', 'options'); ?>
+											</div
 										</div><!-- /.article__media -->
 
 										<header class="article__head">
 											<h5>
-												2
+												<?php echo get_field('video_2_title', 'options'); ?>
 											</h5>
 
 											<p>
-												Gabi is applying creativity to electrical engineering to thrive in the Uplands.
+												<?php echo get_field('video_2_text', 'options'); ?>
 											</p>
 										</header><!-- /.article__head -->
 									</article><!-- /.article -->
@@ -312,16 +316,18 @@
 								<div class="slider__slide">
 									<article class="article">
 										<div class="article__media">
-											<iframe width="1280" height="720" src="https://www.youtube.com/embed/NpEaa2P7qZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+											<div class="embed-container">
+												<?php the_field('video_3_url', 'options'); ?>
+											</div
 										</div><!-- /.article__media -->
 
 										<header class="article__head">
 											<h5>
-												3
+												<?php echo get_field('video_2_title', 'options'); ?>
 											</h5>
 
 											<p>
-												Yolanda is bringing new ideas to improve manufacturing systems in the Uplands.
+												<?php echo get_field('video_3_text', 'options'); ?>
 											</p>
 										</header><!-- /.article__head -->
 									</article><!-- /.article -->
@@ -330,16 +336,18 @@
 								<div class="slider__slide">
 									<article class="article">
 										<div class="article__media">
-											<iframe width="1280" height="720" src="https://www.youtube.com/embed/NpEaa2P7qZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+											<div class="embed-container">
+												<?php the_field('video_4_url', 'options'); ?>
+											</div
 										</div><!-- /.article__media -->
 
 										<header class="article__head">
 											<h5>
-												4
+												<?php echo get_field('video_4_title', 'options'); ?>
 											</h5>
 
 											<p>
-												Trae’s rewarding work is saving lives in the Uplands and beyond.
+												<?php echo get_field('video_4_text', 'options'); ?>
 											</p>
 										</header><!-- /.article__head -->
 									</article><!-- /.article -->

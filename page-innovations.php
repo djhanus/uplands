@@ -50,7 +50,7 @@
 			</div><!-- /.shell -->
 		</div><!-- /.section-media-main -->
 
-		<div class="section-media" style="display: none;">
+		<div class="section-media">
 			<div class="shell">
 				<div class="section__body">
 					<div class="section__row">
@@ -58,19 +58,21 @@
 							<div class="section__col">
 								<article class="article-media article-media--small">
 									<div class="article__video">
-										<iframe width="1280" height="720" src="<?php echo get_field('video_1_url'); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+										<div class="embed-container">
+											<?php the_field('video_1_url', 'options'); ?>
+										</div
 									</div><!-- /.article__video -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												<?php echo get_field('video_1_title'); ?>
+												<?php echo get_field('video_1_title', 'options'); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												<?php echo get_field('video_1_text'); ?>
+												<?php echo get_field('video_1_text', 'options'); ?>
 											</p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->
@@ -80,19 +82,21 @@
 							<div class="section__col">
 								<article class="article-media article-media--small">
 									<div class="article__video">
-										<iframe width="1280" height="720" src="<?php echo get_field('video_2_url'); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+										<div class="embed-container">
+											<?php the_field('video_2_url', 'options'); ?>
+										</div
 									</div><!-- /.article__video -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												<?php echo get_field('video_2_title'); ?>
+												<?php echo get_field('video_2_title', 'options'); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												<?php echo get_field('video_2_text'); ?>
+												<?php echo get_field('video_2_text', 'options'); ?>
 											</p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->
@@ -106,19 +110,21 @@
 							<div class="section__col">
 								<article class="article-media article-media--small">
 									<div class="article__video">
-										<iframe width="1280" height="720" src="<?php echo get_field('video_3_url'); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+										<div class="embed-container">
+											<?php the_field('video_3_url', 'options'); ?>
+										</div
 									</div><!-- /.article__video -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												<?php echo get_field('video_3_title'); ?>
+												<?php echo get_field('video_3_title', 'options'); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												<?php echo get_field('video_3_text'); ?>
+												<?php echo get_field('video_3_text', 'options'); ?>
 											</p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->
@@ -128,19 +134,21 @@
 							<div class="section__col">
 								<article class="article-media article-media--small">
 									<div class="article__video">
-										<iframe width="1280" height="720" src="<?php echo get_field('video_4_url'); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+										<div class="embed-container">
+											<?php the_field('video_4_url', 'options'); ?>
+										</div
 									</div><!-- /.article__video -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												<?php echo get_field('video_4_title'); ?>
+												<?php echo get_field('video_4_title', 'options'); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												<?php echo get_field('video_4_text'); ?>
+												<?php echo get_field('video_4_text', 'options'); ?>
 											</p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->

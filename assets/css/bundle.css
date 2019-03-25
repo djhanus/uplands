@@ -197,7 +197,7 @@ h3 { font-size: 65px; line-height: 1; text-transform: uppercase; letter-spacing:
 
 h4 { font-size: 56px; line-height: 0.9; letter-spacing: 0.05em; font-family: 'Knockout 27 Junior Bantamwt', sans-serif; font-weight: 300; text-transform: uppercase; }
 
-h5 { font-size: 44px; line-height: 0.9; text-transform: uppercase; letter-spacing: 0.05em; font-family: 'Knockout 27 Junior Bantamwt', sans-serif; font-weight: 300; }
+h5 { font-size: 44px; line-height: 0.9; text-transform: uppercase; letter-spacing: 0.05em; font-family: 'Knockout 27 Junior Bantamwt', sans-serif; font-weight: 300; padding-top: 15px; }
 
 h6 { font-size: 37px; line-height: 1; text-transform: uppercase; letter-spacing: 0.05em; font-family: 'Knockout 47 Bantamweight', sans-serif; font-weight: 400; }
 
@@ -659,7 +659,7 @@ nav ol { list-style: none outside none; }
 
 .article-media--small .article__image { padding-top: 96%; }
 
-.article-media--small .article__video { padding-top: 72%; }
+.article-media--small .article__video { padding-top: 10%; }
 
 .article-media--small .article__body { min-height: 370px; padding: 40px 0; background: url(../images/temp/wood.jpg) no-repeat center center/cover; color: #463621; }
 
@@ -910,7 +910,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 
 .intro p { margin-bottom: 30px; }
 
-.intro .intro__inner { background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; }
+.intro .intro__inner { background-size: contain; background-repeat: no-repeat; background-position: right 30%; }
+
+@media (min-width: 1500px) {
+    .intro .intro__inner { background-size: cover; }    /* bg image fix for no black margin */
+}
 
 .intro .intro__inner .shell { position: relative; }
 
@@ -927,7 +931,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 @media (max-width: 767px) {
     .slider__slide.intro .shell img { display: none; }
     .intro .intro__inner { background-size: contain; background-position: right 0 top 404px; }
-    .intro .intro__inner .shell { height: 100%; min-height: 600px; }
+    .intro .intro__inner .shell { height: 100%; min-height: 800px; }
 	.intro .intro__content { padding: 30px 0; }
     .intro .intro__content figure { right: -200px; width: calc(100vw + 220px) !important; }
 	.intro .intro__content-inner { margin: 0 auto !important; }
@@ -1258,6 +1262,26 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 
 .section--innovations .section__head { text-align: center; margin-bottom: 67px; }
 
+/* ACF oEmbed Styles */
+
+    .embed-container { 
+        position: relative; 
+        padding-bottom: 56.25%;
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+    } 
+
+    .embed-container iframe,
+    .embed-container object,
+    .embed-container embed { 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
 /* Mobile */
 
 @media (max-width: 767px) {
@@ -1324,6 +1348,10 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 \* ------------------------------------------------------------ */
 
 .section-counties { padding: 60px 0; color: #fff; background-size: cover; background-repeat: no-repeat; background-position: 0 0; margin-bottom: 150px; }
+
+@media (max-width: 1416px) {
+    .section-counties { display: none; }
+}
 
 .section-counties .section__head { width: 60%; text-align: center; margin-bottom: 80px; }
 
@@ -1550,8 +1578,12 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 
 .section--map { position: relative; min-height: 52vw; margin-bottom: 115px; padding: 100px 0; background-position: right top; overflow: hidden; }
 
+@media (max-width: 1416px) {
+    .section--map { display: none; }
+}
+
 /* note: this image is actually bitmap -_-, */
-.section--map:before { position: absolute; content: ''; height: 698px; width: 400px; top: -350px; left: 65%; transform: translate(-50%); background-image: url('../images/temp/map-markers.svg'); background-size: contain;}
+.section--map:before { position: absolute; content: ''; height: 698px; width: 400px; top: -150px; left: 75%; transform: translate(-50%); background-image: url('../images/temp/map-markers.svg'); background-size: contain;}
 
 .section--map:after { position: absolute; content: ''; height: 100%; width: 100%; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.2); }
 
