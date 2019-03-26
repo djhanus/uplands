@@ -22,13 +22,15 @@
 			</div><!-- /.intro__inner -->
 		</div><!-- /.intro -->
 
-		<div class="section-media-main decoration-bottom decoration-top decoration-dark" style="display: none;">
+		<div class="section-media-main decoration-bottom decoration-top decoration-dark">
 			<div class="shell">
 				<div class="section__body">
 					<article class="article-media article-media--alt">
 						<div class="article__video">
 							<div class="video-default">
-								<video data-ckin="compact" poster="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/video-poster.jpg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/videos/placeholder.mp4"></video>
+								<div class="embed-container">
+									<?php the_field('regional_video_url'); ?>
+								</div>
 							</div><!-- /.video-default -->
 						</div><!-- /.article__video -->
 

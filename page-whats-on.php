@@ -88,6 +88,10 @@
 													<span>
 														<?php echo get_field('event_1_date', 'option'); ?>
 													</span>
+
+													<span>
+														<?php echo get_field('event_1_location', 'option'); ?>
+													</span>
 												</p>
 											</div><!-- /.article__entry -->
 										</div><!-- /.article__body -->
@@ -115,6 +119,10 @@
 												<p>
 													<span>
 														<?php echo get_field('event_2_date', 'option'); ?>
+													</span>
+
+													<span>
+														<?php echo get_field('event_2_location', 'option'); ?>
 													</span>
 												</p>
 											</div><!-- /.article__entry -->
@@ -148,6 +156,10 @@
 													<span>
 														<?php echo get_field('event_3_date', 'option'); ?>
 													</span>
+
+													<span>
+														<?php echo get_field('event_3_location', 'option'); ?>
+													</span>
 												</p>
 											</div><!-- /.article__entry -->
 										</div><!-- /.article__body -->
@@ -175,6 +187,10 @@
 												<p>
 													<span>
 														<?php echo get_field('event_4_date', 'option'); ?>
+													</span>
+
+													<span>
+														<?php echo get_field('event_4_location', 'option'); ?>
 													</span>
 												</p>
 											</div><!-- /.article__entry -->
@@ -208,6 +224,10 @@
 													<span>
 														<?php echo get_field('event_5_date', 'option'); ?>
 													</span>
+
+													<span>
+														<?php echo get_field('event_5_location', 'option'); ?>
+													</span>
 												</p>
 											</div><!-- /.article__entry -->
 										</div><!-- /.article__body -->
@@ -235,6 +255,10 @@
 												<p>
 													<span>
 														<?php echo get_field('event_6_date', 'option'); ?>
+													</span>
+
+													<span>
+														<?php echo get_field('event_6_location', 'option'); ?>
 													</span>
 												</p>
 											</div><!-- /.article__entry -->

@@ -323,7 +323,7 @@
 
 										<header class="article__head">
 											<h5>
-												<?php echo get_field('video_2_title', 'options'); ?>
+												<?php echo get_field('video_3_title', 'options'); ?>
 											</h5>
 
 											<p>

@@ -1797,7 +1797,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 /* Mobile */
 
 @media (max-width: 767px) {
-	.slider-news .slick-dots { position: absolute; bottom: 20px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+	.slider-news .slick-dots { position: absolute; bottom: -30px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
 }
 
 /* ------------------------------------------------------------ *\
