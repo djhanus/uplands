@@ -925,13 +925,13 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 .intro .intro__content { position: relative; width: 660px; max-width: 50%; padding: 85px 0; text-align: center; }
 
 .intro .intro__content figure { position: absolute; top: 0; bottom: 0; right: 0; width: 50vw; background-size: 100% auto; background-repeat: no-repeat; background-position: right center; background-size: cover; z-index: 0; }
-.page-template-page-news .intro .intro__inner {  background-position: top 0 right -250px;  }
+.page-template-page-news .intro .intro__inner {  background-position: top 0 right -150px;  }
 
 /* Mobile */
 
 @media (max-width: 767px) {
     .slider__slide.intro .shell img { display: none; }
-    .intro .intro__inner { background-position-y: 420px; background-size: 169%; background-position-x: -260px; height: 650px; }
+    .intro .intro__inner { background-position-y: 420px; background-size: 169%; background-position-x: -260px; height: 750px; }
     .intro .intro__inner .shell { height: 100%; min-height: 800px; }
 	.intro .intro__content { padding: 30px 0; }
     .intro .intro__content figure { right: -200px; width: calc(100vw + 220px) !important; }
@@ -952,7 +952,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 @media all and (min-width: 300px) and (max-width: 575px){
     .page-template-page-about .intro__inner { background-position-y: 295px; background-position-x: -180px; }
     .page-template-page-develop .intro .intro__inner { background-position-y: 290px; }
-    .page-template-page-work .intro .intro__inner { background-position-y: 327px; background-position-x: -260px; }
+    .page-template-page-work .intro .intro__inner { background-position-y: 400px; background-position-x: -260px; }
     .page-template-page-live .intro .intro__inner { background-position-y: 368px; }
     .page-template-page-news .intro .intro__inner {  background-position: top 200px right 0;  }
     .page-template-page-innovations .intro .intro__inner { background-position-y: 330px; }
@@ -1512,6 +1512,26 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 
 .section-tiles .section__col { width: 50%; padding: 0 25px; }
 
+@media (max-width: 768px) {
+
+    .section-tiles .section__col { width: 85%; }
+
+}
+
+@media (max-width: 414px) {
+
+    .section-tiles .section__col { width: 100%; }
+
+}
+
+@media (max-width: 375px) {
+
+    .section-tiles .section__col { width: 100%; }
+
+}
+
+
+
 /* Tablet Portrait */
 
 @media (max-width: 1023px) {
@@ -1882,6 +1902,10 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 	.tile .tile__inner { height: auto; overflow: hidden; padding-top: 120px; }
 
 	.tile .tile__content { padding-left: 10px; padding-right: 10px; padding-bottom: 25px; }
+}
+
+@media (max-width: 375px) {
+    .tile { max-width: 375px; }
 }
 
 /* ------------------------------------------------------------ *\
