@@ -178,7 +178,7 @@
 
 								<div class="list__name">
 									<p>
-										CRAWFORD
+										Crawford
 									</p>
 								</div><!-- /.list__name -->
 							</a>
