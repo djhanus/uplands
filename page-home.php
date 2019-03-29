@@ -273,6 +273,27 @@
 					<div class="slider-innovations">
 						<div class="slider__clip">
 							<div class="slider__slides">
+
+								<div class="slider__slide">
+									<article class="article">
+										<div class="article__media">
+											<div class="embed-container">
+												<?php the_field('regional_video_url', 'options'); ?>
+											</div
+										</div><!-- /.article__media -->
+
+										<header class="article__head">
+											<h5>
+												<?php echo get_field('regional_video_title', 'options'); ?>
+											</h5>
+
+											<p>
+												<?php echo get_field('regional_video_text', 'options'); ?>
+											</p>
+										</header><!-- /.article__head -->
+									</article><!-- /.article -->
+								</div><!-- /.slider__slide -->
+
 								<div class="slider__slide">
 									<article class="article">
 										<div class="article__media">

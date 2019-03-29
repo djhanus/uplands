@@ -29,7 +29,7 @@
 						<div class="article__video">
 							<div class="video-default">
 								<div class="embed-container">
-									<?php the_field('regional_video_url'); ?>
+									<?php the_field('regional_video_url','options'); ?>
 								</div>
 							</div><!-- /.video-default -->
 						</div><!-- /.article__video -->
@@ -37,13 +37,13 @@
 						<div class="article__body">
 							<header class="article__head">
 								<h3 class="title">
-									<?php echo get_field('regional_video_title'); ?>
+									<?php echo get_field('regional_video_title','options','options'); ?>
 								</h3><!-- /.title -->
 							</header><!-- /.article__head -->
 
 							<div class="article__entry">
 								<p>
-									<?php echo get_field('regional_video_text'); ?>
+									<?php echo get_field('regional_video_text','options'); ?>
 								</p>
 							</div><!-- /.article__entry -->
 						</div><!-- /.article__body -->
