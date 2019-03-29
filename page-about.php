@@ -321,7 +321,7 @@
 								<div class="circle circle--big circle--yellow circle--yellow-bg">
 									<span class="fz-s">HOOSIER</span>
 
-									<span class="fz-s">NATURAL FOREST</span>
+									<span class="fz-s">NATIONAL FOREST</span>
 								</div><!-- /.circle circle-/-big circle-/-yellow circle-/-yellow-bg -->
 
 								<div class="circle circle--blue">
