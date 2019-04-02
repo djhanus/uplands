@@ -140,7 +140,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
                 asNavFor: null,
                 prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
                 nextArrow: '<button class="slick-next" aria-label="Next" type="button">Next</button>',
-                autoplay: true,
+                autoplay: false,
                 autoplaySpeed: 2000,
                 centerMode: false,
                 centerPadding: '50px',
@@ -3143,6 +3143,8 @@ function menuSlide() {
 navTriggerActive();
 menuSlide();
 $('.slider-intro .slider__slides').slick({
+  autoplay: true,
+  autoplaySpeed: 4000,
   arrows: false,
   dots: true,
   fade: true
