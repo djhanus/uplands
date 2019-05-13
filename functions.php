@@ -30,5 +30,22 @@ if( function_exists('acf_add_options_page') ) {
 		'redirect'		=> false
 	));
 }
+
+function create_posttypes() {
+  register_post_type('videos',
+    array (
+      'labels' => array (
+        'name' => __('Videos'),
+        'singular_name' => __('Video')
+      ),
+      'supports' => array('title', 'editor'),
+      'public' => true,
+      'has_archive' => true,
+      'rewrite' => array('slug' => 'videos'),
+    )
+  );
+}
+add_action('init', 'create_posttypes');
+
 ?>
 

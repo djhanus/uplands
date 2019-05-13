@@ -57,105 +57,40 @@
 				<div class="section__body">
 					<div class="section__row">
 						<div class="section__cols">
+							<?php
+							$news_args = array(
+									'post_type'			=> 'Videos',
+									'order'				=> 'DSC',
+									//'posts_per_page'	=> '8',
+									'post_status'		=> 'publish',
+								);
+								$news_query = new WP_Query($news_args);
+								if ($news_query->have_posts()) : while($news_query->have_posts()) : $news_query->the_post();
+							?>
 							<div class="section__col">
 								<article class="article-media article-media--small">
 									<div class="article__video">
 										<div class="embed-container">
-											<?php the_field('video_1_url', 'options'); ?>
+											<?php echo get_field('featured_video'); ?>
 										</div
 									</div><!-- /.article__video -->
 
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												<?php echo get_field('video_1_title', 'options'); ?>
+												<a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 
 										<div class="article__entry">
 											<p>
-												<?php echo get_field('video_1_text', 'options'); ?>
+												<?php the_content(); ?>
 											</p>
 										</div><!-- /.article__entry -->
 									</div><!-- /.article__body -->
 								</article><!-- /.article-media -->
 							</div><!-- /.section__col -->
-
-							<div class="section__col">
-								<article class="article-media article-media--small">
-									<div class="article__video">
-										<div class="embed-container">
-											<?php the_field('video_2_url', 'options'); ?>
-										</div
-									</div><!-- /.article__video -->
-
-									<div class="article__body">
-										<header class="article__head">
-											<h3 class="title">
-												<?php echo get_field('video_2_title', 'options'); ?>
-											</h3><!-- /.title -->
-										</header><!-- /.article__head -->
-
-										<div class="article__entry">
-											<p>
-												<?php echo get_field('video_2_text', 'options'); ?>
-											</p>
-										</div><!-- /.article__entry -->
-									</div><!-- /.article__body -->
-								</article><!-- /.article-media -->
-							</div><!-- /.section__col -->
-						</div><!-- /.section__cols -->
-					</div><!-- /.section__row -->
-
-					<div class="section__row">
-						<div class="section__cols">
-							<div class="section__col">
-								<article class="article-media article-media--small">
-									<div class="article__video">
-										<div class="embed-container">
-											<?php the_field('video_3_url', 'options'); ?>
-										</div
-									</div><!-- /.article__video -->
-
-									<div class="article__body">
-										<header class="article__head">
-											<h3 class="title">
-												<?php echo get_field('video_3_title', 'options'); ?>
-											</h3><!-- /.title -->
-										</header><!-- /.article__head -->
-
-										<div class="article__entry">
-											<p>
-												<?php echo get_field('video_3_text', 'options'); ?>
-											</p>
-										</div><!-- /.article__entry -->
-									</div><!-- /.article__body -->
-								</article><!-- /.article-media -->
-							</div><!-- /.section__col -->
-
-							<div class="section__col">
-								<article class="article-media article-media--small">
-									<div class="article__video">
-										<div class="embed-container">
-											<?php the_field('video_4_url', 'options'); ?>
-										</div
-									</div><!-- /.article__video -->
-
-									<div class="article__body">
-										<header class="article__head">
-											<h3 class="title">
-												<?php echo get_field('video_4_title', 'options'); ?>
-											</h3><!-- /.title -->
-										</header><!-- /.article__head -->
-
-										<div class="article__entry">
-											<p>
-												<?php echo get_field('video_4_text', 'options'); ?>
-											</p>
-										</div><!-- /.article__entry -->
-									</div><!-- /.article__body -->
-								</article><!-- /.article-media -->
-							</div><!-- /.section__col -->
+							<?php endwhile; endif; wp_reset_query(); ?>
 						</div><!-- /.section__cols -->
 					</div><!-- /.section__row -->
 				</div><!-- /.section__body -->

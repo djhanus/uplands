@@ -26,55 +26,37 @@
 				<div class="section__body">
 					<div class="section__row">
 						<div class="section__cols">
+							<?php
+							$news_args = array(
+									'post_type'			=> 'post',
+									'order'				=> 'DSC',
+									//'posts_per_page'	=> '8',
+									'post_status'		=> 'publish',
+									'category_slug'		=> 'news',
+								);
+								$news_query = new WP_Query($news_args);
+								if ($news_query->have_posts()) : while($news_query->have_posts()) : $news_query->the_post(); $i++; if(($i % 2) == 0) :
+							?>
 							<div class="section__col">
-								<div class="tile" style="background-image: url(<?php echo get_field('news_feature_1_image','options'); ?>);">
-									<div class="tile__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left-normal.png);">
-										<div class="tile__content">
-											<article class="article">
-												<header class="article__head article__head--shrink">
-													<h3 class="title">
-														<?php echo get_field('news_feature_1_title','options'); ?>
-													</h3><!-- /.title -->
-												</header><!-- /.article__head -->
-
-												<div class="article__entry">
-
-													<p>
-														<?php echo get_field('news_feature_1_text','options'); ?>
-													</p>
-												</div><!-- /.article__entry -->
-
-												<div class="article__actions">
-													<a href="<?php echo get_field('news_feature_1_link','options'); ?>" class="link-more">
-														Learn More
-													</a>
-												</div><!-- /.article__actions -->
-											</article><!-- /.article -->
-										</div><!-- /.tile__content -->
-									</div><!-- /.tile__inner -->
-								</div><!-- /.tile -->
-							</div><!-- /.section__col -->
-							
-							<div class="section__col">
-								<div class="tile" style="background-image: url(<?php echo get_field('news_feature_2_image','options'); ?>);">
+								<div class="tile" style="background-image: url(<?php echo get_field('featured_image'); ?>);">
 									<div class="tile__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-right-normal.png);">
 										<div class="tile__content">
 											<article class="article">
 												<header class="article__head article__head--shrink">
 													<h3 class="title">
-														<?php echo get_field('news_feature_2_title','options'); ?>
+														<a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
 													</h3><!-- /.title -->
 												</header><!-- /.article__head -->
 
 												<div class="article__entry">
 
 													<p>
-														<?php echo get_field('news_feature_2_text','options'); ?>
+														<?php the_excerpt(); ?>
 													</p>
 												</div><!-- /.article__entry -->
 
 												<div class="article__actions">
-													<a href="<?php echo get_field('news_feature_2_link','options'); ?>" class="link-more">
+													<a href="<?php echo get_permalink(); ?>" class="link-more">
 														Learn More
 													</a>
 												</div><!-- /.article__actions -->
@@ -83,31 +65,28 @@
 									</div><!-- /.tile__inner -->
 								</div><!-- /.tile -->
 							</div><!-- /.section__col -->
-						</div><!-- /.section__cols -->
-					</div><!-- /.section__row -->
 
-					<div class="section__row">
-						<div class="section__cols">
+							<?php else : ?>
 							<div class="section__col">
-								<div class="tile" style="background-image: url(<?php echo get_field('news_feature_3_image','options'); ?>);">
+								<div class="tile" style="background-image: url(<?php echo get_field('featured_image'); ?>);">
 									<div class="tile__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-left-normal.png);">
 										<div class="tile__content">
 											<article class="article">
 												<header class="article__head article__head--shrink">
 													<h3 class="title">
-														<?php echo get_field('news_feature_3_title','options'); ?>
+														<a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
 													</h3><!-- /.title -->
 												</header><!-- /.article__head -->
 
 												<div class="article__entry">
 
 													<p>
-														<?php echo get_field('news_feature_3_text','options'); ?>
+														<?php the_excerpt(); ?>
 													</p>
 												</div><!-- /.article__entry -->
 
 												<div class="article__actions">
-													<a href="<?php echo get_field('news_feature_3_link','options'); ?>" class="link-more">
+													<a href="<?php echo get_permalink(); ?>" class="link-more">
 														Learn More
 													</a>
 												</div><!-- /.article__actions -->
@@ -115,37 +94,10 @@
 										</div><!-- /.tile__content -->
 									</div><!-- /.tile__inner -->
 								</div><!-- /.tile -->
-							</div><!-- /.section__col -->
+							</div><!-- /.section__col -->	
 							
-							<div class="section__col">
-								<div class="tile" style="background-image: url(<?php echo get_field('news_feature_4_image','options'); ?>);">
-									<div class="tile__inner" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/temp/wood-right-normal.png);">
-										<div class="tile__content">
-											<article class="article">
-												<header class="article__head article__head--shrink">
-													<h3 class="title">
-														<?php echo get_field('news_feature_4_title','options'); ?>
-													</h3><!-- /.title -->
-												</header><!-- /.article__head -->
-
-												<div class="article__entry">
-
-													<p>
-														<?php echo get_field('news_feature_4_text','options'); ?>
-													</p>
-												</div><!-- /.article__entry -->
-
-												<div class="article__actions">
-													<a href="<?php echo get_field('news_feature_4_link','options'); ?>" class="link-more">
-														Learn More
-													</a>
-												</div><!-- /.article__actions -->
-											</article><!-- /.article -->
-										</div><!-- /.tile__content -->
-									</div><!-- /.tile__inner -->
-								</div><!-- /.tile -->
-							</div><!-- /.section__col -->
-						</div><!-- /.section__cols -->
+							<?php endif; endwhile; endif; wp_reset_query(); ?>
+						</div><!--</div> /.section__cols -->
 					</div><!-- /.section__row -->
 				</div><!-- /.section__body -->
 			</div><!-- /.shell -->
