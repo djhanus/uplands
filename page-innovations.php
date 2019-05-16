@@ -78,7 +78,7 @@
 									<div class="article__body">
 										<header class="article__head">
 											<h3 class="title">
-												<a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+												<?php the_title(); ?>
 											</h3><!-- /.title -->
 										</header><!-- /.article__head -->
 

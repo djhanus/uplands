@@ -305,8 +305,8 @@
 										</div><!-- /.article__media -->
 										<header class="article__head">
 											<h5>
-												<a href="<?php echo get_permalink(); ?>">
-													<?php the_title(); ?></a>
+												
+													<?php the_title(); ?>
 											</h5>
 											<p>
 												<?php the_content(); ?>	
