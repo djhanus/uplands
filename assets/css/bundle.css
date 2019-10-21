@@ -1521,6 +1521,12 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 
 }
 
+@media (max-width: 481px) {
+
+    .section-tiles .section__col { width: 100%; }
+
+}
+
 @media (max-width: 414px) {
 
     .section-tiles .section__col { width: 100%; }
@@ -1900,7 +1906,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0
 /* Mobile */
 
 @media (max-width: 767px) {
-	.tile { height: 850px; max-width: 450px; }
+	.tile { height: 850px; max-width: 481px; }
 
 	.tile .tile__inner { height: auto; overflow: hidden; padding-top: 120px; }
 

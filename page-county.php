@@ -1,6 +1,6 @@
 <?php get_header();
 
-	/* Template Name: Work */ ?>
+	/* Template Name: County Page */ ?>
 
 		<div class="intro intro--alt intro--margin-bot">
 			<div class="intro__inner" style="background-image: url(<?php echo get_field('main_banner_image') ?>;">
