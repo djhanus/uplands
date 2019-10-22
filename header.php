@@ -41,11 +41,12 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
 
 
-				<div class="search">
+				<!--<div class="search">
 					<a href="#">
 						<i class="ico-search"></i>
 					</a>
-				</div>  /.search
+				</div>  /.search -->
+
 				<div class="nav-trigger">
 					<span></span>
 					
